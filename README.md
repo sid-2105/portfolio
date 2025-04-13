@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Praises Tula Portfolio
 
-## Getting Started
+A personal portfolio website showcasing my work as a Software Engineer based in Nigeria. This project is built with Next.js and implements a sleek, modern design created by Elias Davis. The portfolio shows my technical skills, featured projects, and professional background while showcasing engaging animations and interactive elements to create a memorable browsing experience.
 
-First, run the development server:
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview
+
+This portfolio serves as a digital representation of my professional identity as a Software Developer with expertise in UI creation, animations, and building dynamic user experiences. The website showcases my technical skills, featured projects, and professional journey in an interactive and visually appealing manner.
+
+As someone passionate about software development since 2022, this portfolio reflects my commitment to continuous learning and growth in the field. It demonstrates my ability to transform design concepts into functional, responsive web applications while maintaining clean code practices and modern development standards.
+
+The portfolio is not just a collection of projects but also tells the story of my development journey, highlighting my experience with various programming languages, frameworks, and tools. It's designed to connect with potential employers and collaborators interested in working with a goal-oriented developer on ambitious projects.
+
+## Features
+
+- Responsive design that works across all device sizes
+- Dynamic page transitions and UI effects
+- Interactive project showcases with detailed descriptions
+- Custom animations and micro-interactions
+- Professional skills visualization
+- Contact form integration
+- Dark/light mode toggle
+- SEO optimized content
+- Fast loading times through Next.js optimizations
+
+## Tech Stack
+
+- **Frontend Framework**: Next.js
+- **Styling**: TailwindCSS
+- **Languages**: TypeScript, JavaScript
+- **Animation**: Framer Motion
+- **Version Control**: Git/GitHub
+- **Additional Languages**: Python, Ruby, Rust
+- **Markup**: HTML5, CSS3
+- **Other Frameworks**: ReactJS, Flask, Ruby-on-Rails, Redux
+
+## Installation
+
+To run this portfolio locally:
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio.git
+
+# Navigate to the project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+After starting the development server, the portfolio will be available at `http://localhost:3000`. You can modify the content by updating the relevant components and data files.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Credits
 
-## Learn More
+- **Design**: Based on Figma design by [Elias Davis](https://www.figma.com/design/eqpKP372UxqbmLYJ61MZOW/Portfolio--Community-?node-id=19-457&t=Ck7AXOUXSHTfDFGQ-0)
+- **Icons**: [Material Design Icons](https://react-icons.github.io/react-icons/icons/md/) 
+- **Fonts**: [Google Fonts](https://fonts.google.com/)
+- **Development Tools**: Zed, Inkscape, Draw.io
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the [MIT License](LICENSE).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email**: [dev.praises@gmail.com](mailto:dev.praises@gmail.com)
+- **Phone**: [+2348085852828](call:+2348085852828)
+- **Website**: [praisestula.com](https://praisestula.com.ng)
+- **LinkedIn**: [Praises Tula](https://linkedin.com/in/praisestula)
+- **Twitter**: [@PraisesTula](https://twitter.com/praisestula)
+- **GitHub**: [github.com/PraisesTula](https://github.com/praisestula)
+- **Mastodon**: [@PraisesTula](https://mastodon.social/@praisestula)
