@@ -20,7 +20,7 @@ export function ThemeToggle() {
   return (
     <button
       type="button"
-      className="fixed top-4 text-primary right-4 p-2 border border-primary rounded-full bg-secondary cursor-pointer"
+      className=" p-2 border border-primary rounded-full bg-secondary cursor-pointer"
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
       title={resolvedTheme === "dark" ? "Light Mode" : "Dark Mode"}
       aria-label={resolvedTheme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
