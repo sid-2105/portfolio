@@ -8,14 +8,8 @@
     --border: #282c33;
     --primary: #282c33;
     --secondary: #abb2bf;
+    --tertiary: #282c33;
 }
-
-/* @media (prefers-color-scheme: dark) {
-    :root {
-        --background: #282c33;
-        --forground: #abb2bf;
-    }
-} */
 
 .dark {
     --background: #282c33;
@@ -23,6 +17,7 @@
     --border: #abb2bf;
     --primary: #abb2bf;
     --secondary: #282c33;
+    --tertiary: #fff;
 }
 
 @theme inline {
@@ -31,14 +26,9 @@
     --font-sans: var(--font-fira-sans);
     --color-primary: var(--primary);
     --color-secondary: var(--secondary);
+    --color-tertiary: var(--tertiary);
 
     --color-purple: #c778dd;
     --color-light: #abb2bf;
     --color-dark: #282c33;
-}
-
-
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
 }
