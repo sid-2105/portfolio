@@ -9,6 +9,7 @@
     --primary: #282c33;
     --secondary: #abb2bf;
     --tertiary: #282c33;
+    --purple: #6e11b0;
 }
 
 .dark {
@@ -18,6 +19,7 @@
     --primary: #abb2bf;
     --secondary: #282c33;
     --tertiary: #fff;
+    --purple: #c778dd;
 }
 
 @theme inline {
@@ -28,7 +30,7 @@
     --color-secondary: var(--secondary);
     --color-tertiary: var(--tertiary);
 
-    --color-purple: #c778dd;
+    --color-purple: var(--purple);
     --color-light: #abb2bf;
     --color-dark: #282c33;
 }
