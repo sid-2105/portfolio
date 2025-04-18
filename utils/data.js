@@ -81,6 +81,64 @@ export const PROFILE_LINKS = {
   EMAIL: "dev.praises@gmail.com",
 };
 
+export const SKILLS = {
+  LANGUAGES: ["JavaScript", "TypeScript", "Python", "Ruby", "C++"],
+  DATABASE: ["PostgreSQL", "SQLite", "MongoDB"],
+  FRAMEWORKS: [
+    "ReactJS",
+    "NextJS",
+    "NodeJS",
+    "ExpresJS",
+    "Flask",
+    "Ruby-on-Rails",
+  ],
+  TOOLS: ["Linux", "Git", "GitHub", "Zed", "VSCode", "Inkscape", "Draw.io"],
+  OTHERS: [
+    "HTML5",
+    "CSS3",
+    "TailwindCSS",
+    "Bootstrap",
+    "SCSS",
+    "REST",
+    "Redux",
+  ],
+};
+
+export const ABOUT_ME = [
+  "Hello, i'm Praises!",
+  "I'm a Full-Stack Software Engineer located in Nigeria. \n" +
+  "I have a great passion for UI creation, effects, animation\n" +
+  "and dynamic user experiences.",
+  "I try to keep up with security and best practices and am \n" +
+  "always looking for new things to learn and new opportunities.",
+  "I'm interested in working on ambitious projects with positive \n" +
+  "people and goal-oriented companies.",
+  "I am a Liverpool FC fan. I love swimming, watching TV series and travelling.",
+];
+
+export const SUMMARY =
+  "Detail-oriented software engineer with great passion for UI\n" +
+  " creation, effects, animation and dynamic user experiences. Major\n" +
+  " tech stack includes NextJS, ReactJS, Ruby-on-Rails, NodeJS,\n" +
+  " Postgresql, JavaScript, TypeScript, Python, C++ and Redux. Devoted to\n" +
+  " developing customized software to meet organisational needs,\n" +
+  " highlight their core competencies, and further their success.";
+
+export const CURRENT_WORK = {
+  WORK: "Acire Dashboard",
+  LINK: "",
+};
+
+export const FUN_FACTS = [
+  "I often go swimming 🏊🏽‍♂️ with my friends",
+  "My first computer 💻 bug was an actual bug 🪳",
+  "I like watching TV 📺 shows/series",
+  "I use Linux 🧑🏾‍💻 with GNOME while waiting for 3rd stable release of COSMIC ☺️",
+  "I support Liverpool FC ⚽️ (the biggest 💪🏾 club in Europe)",
+  "Linux runs on 💯% of the world’s top 500 supercomputers",
+  "My favourite game 🕹 is the Tomb Raider franchise",
+  "I once spent 3 hours debugging 🧑🏾‍💻 a single missing semicolon",
+];
 // nsc.go54.com
 // nsd.go54.com
 // https://www.whogohost.com/host/clientarea.php?action=domaindetails#tabNameservers
