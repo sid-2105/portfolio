@@ -40,7 +40,7 @@ export const Section = ({ children, className }) => {
   return (
     <motion.section
       ref={ref}
-      className={`my-8 p-4 flex items-center justify-center relative md:p-8 ${className}`}
+      className={`my-8 p-4 flex items-center justify-center relative overflow-hidden md:p-8 ${className}`}
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
       exit="exit"
