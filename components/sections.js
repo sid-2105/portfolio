@@ -40,7 +40,7 @@ export const Section = ({ children, className }) => {
   return (
     <motion.section
       ref={ref}
-      className={`my-8 p-4 flex items-center justify-center relative md:p-8 ${className}`}
+      className={`my-8 p-4 flex items-center justify-center relative overflow-hidden md:p-8 ${className}`}
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
       exit="exit"
@@ -88,5 +88,17 @@ export const WrapSection = ({ children, className }) => {
     >
       {children}
     </motion.div>
+  );
+};
+
+export const Seperator = () => {
+  return (
+    <motion.div
+      className="w-full h-px bg-transparent my-8"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+    />
   );
 };

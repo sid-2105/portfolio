@@ -68,6 +68,7 @@ const Header = () => {
                   <Link
                     className={`${isActive ? "text-tertiary font-medium border-y-purple" : "border-y-transparent hover:text-tertiary"} w-full py-4 block border-y text-primary hover:font-medium hover:border-y-purple transition-colors duration-200 md:border-t-transparent md:hover:border-t-transparent md:w-auto md:py-2`}
                     href={link.path}
+                    onClick={() => setIsMenuOpen(false)}
                   >
                     <span className="text-purple">#</span> {link.label}
                   </Link>

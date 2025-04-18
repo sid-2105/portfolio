@@ -1,11 +1,12 @@
-import { TESTIMONIALS } from "@/utils/data";
+import { ORIENTATION } from "@/utils/contants";
 import { Section, WrapSection } from "../sections";
 import { PurpleText, PrimaryText } from "../texts";
+import { TESTIMONIALS, SUMMARY } from "@/utils/data";
 
 import Link from "next/link";
 import AppLink from "../app-link";
+import Carousel from "../carousel";
 import QuoteCarousel from "../quote-carousel";
-import VerticalCarousel from "../vertical-carousel";
 import RectangleSVG from "../assets/RectangleSVG";
 
 export default function Hello() {
@@ -18,25 +19,22 @@ export default function Hello() {
               Praises is a <PurpleText>software engineer</PurpleText> and{" "}
               <PurpleText>front-end developer</PurpleText>
             </h1>
-            <PrimaryText>
-              Detail-oriented software engineer with great passion for UI
-              creation, effects, animation and dynamic user experiences. Major
-              tech stack includes NextJS, ReactJS, Ruby-on-Rails, NodeJS,
-              Postgresql, JavaScript, TypeScript, and Redux. Devoted to
-              developing customized software to meet organisational needs,
-              highlight their core competencies, and further their success.
-            </PrimaryText>
+            <PrimaryText>{SUMMARY}</PrimaryText>
             <AppLink href="contact">Contact me!!</AppLink>
           </div>
+
           <div>
-            <VerticalCarousel testimonials={TESTIMONIALS} />
+            <Carousel
+              testimonials={TESTIMONIALS}
+              orientation={ORIENTATION.VERTICAL}
+            />
           </div>
         </div>
 
         <QuoteCarousel />
       </WrapSection>
-      
-      <RectangleSVG className="w-20 h-20 absolute bottom-[5%] -right-8"/>
+
+      <RectangleSVG className="w-20 h-20 absolute bottom-[5%] -right-8 hidden md:block" />
     </Section>
   );
 }

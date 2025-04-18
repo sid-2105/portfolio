@@ -16,7 +16,7 @@ export const SecondaryText = ({ children, className }) => {
   );
 };
 
-export const TetiaryText = ({ children, className }) => {
+export const TertiaryText = ({ children, className }) => {
   return (
     <p className={`text-tertiary ${className}`}>{children}</p>
   );
