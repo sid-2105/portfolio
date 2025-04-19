@@ -23,10 +23,10 @@ const Footer = () => {
               </h6>
 
               <a
-                href={`mailto:${PROFILE_LINKS.EMAIL}`}
+                href={`mailto:${PROFILE_LINKS.EMAIL.LINK}`}
                 className="hover:underline hover:text-tertiary"
               >
-                {PROFILE_LINKS.EMAIL}
+                {PROFILE_LINKS.EMAIL.LINK}
               </a>
             </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
             <ul className="h-fit flex items-center gap-2 ">
               <li className="h-fit">
                 <a
-                  href={PROFILE_LINKS.GITHUB}
+                  href={PROFILE_LINKS.GITHUB.LINK}
                   target="_blank"
                   className="p-0.5 h-fit flex items-center justify-center  transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1"
                   title="My GitHub Profile"
@@ -54,7 +54,7 @@ const Footer = () => {
 
               <li className="h-fit">
                 <a
-                  href={PROFILE_LINKS.LINKEDIN}
+                  href={PROFILE_LINKS.LINKEDIN.LINK}
                   target="_blank"
                   className="p-0.5 h-fit flex items-center justify-center  transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1"
                   title="My LinkedIn Profile"
@@ -67,7 +67,7 @@ const Footer = () => {
 
               <li className="h-fit">
                 <a
-                  href={PROFILE_LINKS.TWITTER}
+                  href={PROFILE_LINKS.TWITTER.LINK}
                   target="_blank"
                   className="p-0.5 h-fit flex items-center justify-center  transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1"
                   title="My X(Twitter) Profile"
@@ -80,7 +80,7 @@ const Footer = () => {
 
               <li className="h-fit">
                 <a
-                  href={PROFILE_LINKS.MASTODON}
+                  href={PROFILE_LINKS.MASTODON.LINK}
                   target="_blank"
                   className="p-0.5 h-fit flex items-center justify-center  transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1"
                   title="My Mastodon Profile"
@@ -93,7 +93,7 @@ const Footer = () => {
 
               <li className="h-fit">
                 <a
-                  href={PROFILE_LINKS.FACEBOOK}
+                  href={PROFILE_LINKS.FACEBOOK.LINK}
                   target="_blank"
                   className="p-0.5 h-fit flex items-center justify-center  transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1"
                   title="My Facebook Profile"
