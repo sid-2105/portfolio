@@ -85,7 +85,7 @@ const Header = () => {
               <ul className="flex justify-center gap-8 h-fit md:flex-col md:items-center md:justify-start md:gap-3">
                 <li className="h-fit">
                   <a
-                    href={PROFILE_LINKS.GITHUB}
+                    href={PROFILE_LINKS.GITHUB.LINK}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-0.5 h-fit flex items-center justify-center transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1 md:hover:translate-x-1"
@@ -98,7 +98,7 @@ const Header = () => {
 
                 <li className="h-fit">
                   <a
-                    href={PROFILE_LINKS.LINKEDIN}
+                    href={PROFILE_LINKS.LINKEDIN.LINK}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-0.5 h-fit flex items-center justify-center transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1 md:hover:translate-x-1"
@@ -111,7 +111,7 @@ const Header = () => {
 
                 <li className="h-fit">
                   <a
-                    href={`mailto:${PROFILE_LINKS.EMAIL}`}
+                    href={`mailto:${PROFILE_LINKS.EMAIL.LINK}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-0.5 h-fit flex items-center justify-center transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1 md:hover:translate-x-1"

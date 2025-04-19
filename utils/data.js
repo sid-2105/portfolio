@@ -72,13 +72,31 @@ export const QUOTES = [
 ];
 
 export const PROFILE_LINKS = {
-  LINKEDIND: "https://www.linkedin.com/in/praises-tula",
-  GITHUB: "https://github.com/PraisesPJMT",
-  TWITTER: "https://twitter.com/PraisesPJMT",
+  LINKEDIN: {
+    LINK: "https://www.linkedin.com/in/praises-tula",
+    LABEL: "Praises Tula",
+  },
+  GITHUB: {
+    LINK: "https://github.com/PraisesPJMT",
+    LABEL: "@PraisesPJMT",
+  },
+  TWITTER: {
+    LINK: "https://twitter.com/PraisesPJMT",
+    LABEL: "@PraisesPJMT",
+  },
   // INSTAGRAM: 'https://www.instagram.com/praises_tula',
-  FACEBOOK: "https://web.facebook.com/praises.musa",
-  MASTODON: "https://ruby.social/@pjmt",
-  EMAIL: "dev.praises@gmail.com",
+  FACEBOOK: {
+    LINK: "https://web.facebook.com/praises.musa",
+    LABEL: "Praises Musa",
+  },
+  MASTODON: {
+    LINK: "https://ruby.social/@pjmt",
+    LABEL: "@pjmt",
+  },
+  EMAIL: {
+    LINK: "dev.praises@gmail.com",
+    LABEL: "dev.praises@gmail.com",
+  },
 };
 
 export const SKILLS = {
@@ -107,12 +125,12 @@ export const SKILLS = {
 export const ABOUT_ME = [
   "Hello, i'm Praises!",
   "I'm a Full-Stack Software Engineer located in Nigeria. \n" +
-  "I have a great passion for UI creation, effects, animation\n" +
-  "and dynamic user experiences.",
+    "I have a great passion for UI creation, effects, animation\n" +
+    "and dynamic user experiences.",
   "I try to keep up with security and best practices and am \n" +
-  "always looking for new things to learn and new opportunities.",
+    "always looking for new things to learn and new opportunities.",
   "I'm interested in working on ambitious projects with positive \n" +
-  "people and goal-oriented companies.",
+    "people and goal-oriented companies.",
   "I am a Liverpool FC fan. I love swimming, watching TV series and travelling.",
 ];
 
@@ -139,6 +157,16 @@ export const FUN_FACTS = [
   "My favourite game 🕹 is the Tomb Raider franchise",
   "I once spent 3 hours debugging 🧑🏾‍💻 a single missing semicolon",
 ];
+
+export const CONTACT_INFO = {
+  EMAIL: "dev.praises@gmail.com",
+  PHONE: "+2348085852828",
+  NOTE: [
+    "I'm interested in working on ambitious projects with positive people and goal-oriented companies.",
+    "However, if you have other request or question, don’t hesitate to contact me.",
+  ],
+};
+
 // nsc.go54.com
 // nsd.go54.com
 // https://www.whogohost.com/host/clientarea.php?action=domaindetails#tabNameservers
