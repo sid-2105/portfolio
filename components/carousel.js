@@ -70,7 +70,7 @@ const Carousel = ({ testimonials, orientation = ORIENTATION.HORIZONTAL }) => {
   // Container classes based on orientation
   const containerClasses = isVertical 
     ? "relative h-[400px] w-full overflow-hidden rounded-xl"
-    : "relative h-[200px] w-full overflow-hidden rounded-xl";
+    : "relative h-[330px] w-full overflow-hidden rounded-xl";
 
   // Carousel container classes based on orientation
   const carouselContainerClasses = isVertical
@@ -167,7 +167,7 @@ const Carousel = ({ testimonials, orientation = ORIENTATION.HORIZONTAL }) => {
                   <PurpleText className="mt-auto text-4xl font-bold">&rdquo;</PurpleText>
                 </blockquote>
 
-                <div>
+                <div className='relative'>
                   <h3 className="font-bold text-sm text-tertiary">
                     <Link
                       href={testimonial.link}
@@ -179,23 +179,25 @@ const Carousel = ({ testimonials, orientation = ORIENTATION.HORIZONTAL }) => {
                     </Link>
                   </h3>
                   <p className="text-xs text-primary/70">{testimonial.location}</p>
+                  
+                  <div className="absolute right-0 bottom-2 bg-secondary/80 shadow shadow-purple-500/50 h-16 w-16 rounded-full overflow-hidden border-2 border-purple">
+                    <Link
+                      href={testimonial.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${testimonial.name}'s LinkedIn profile`}
+                    >
+                      <Image
+                        src={testimonial.profile_picture}
+                        alt={testimonial.name}
+                        fill
+                        className="object-cover"
+                      />
+                    </Link>
+                  </div>
                 </div>
 
-                <div className="absolute right-0 bottom-2 bg-secondary/80 shadow shadow-purple-500/50 h-16 w-16 rounded-full overflow-hidden border-2 border-purple">
-                  <Link
-                    href={testimonial.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`${testimonial.name}'s LinkedIn profile`}
-                  >
-                    <Image
-                      src={testimonial.profile_picture}
-                      alt={testimonial.name}
-                      fill
-                      className="object-cover"
-                    />
-                  </Link>
-                </div>
+                
               </div>
             </div>
           );
