@@ -1,9 +1,10 @@
-import { FEATURED_PROJECTS } from "@/utils/data";
 import { ProjectCard } from "../project-card";
 import { MainTitle, SubTitle } from "../titles";
+import { FEATURED_PROJECTS } from "@/utils/data";
 import { Section, WrapSection } from "../sections";
 
 import Link from "next/link";
+import AppLink from "../app-link";
 import DotsSVG from "../assets/DotsSVG";
 import RectangleSVG from "../assets/RectangleSVG";
 
@@ -12,18 +13,18 @@ const Projects = ({ home = false }) => {
     <Section className="relative overflow-hidden">
       <WrapSection >
         {home ? (
-          <div className="grid grid-cols-[4fr_1fr] gap-y-4 gap-x-10">
+          <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] gap-y-4 gap-x-10">
             <SubTitle line>projects</SubTitle>
 
-            <Link href="projects" className="ml-auto hover:underline hover:text-purple">
+            <Link href="projects" className="ml-auto hover:underline hover:text-purple hidden md:inline">
               {`${'View all ~~>'}`}
             </Link>
           </div>
         ) : (
           <div>
-            <MainTitle subText="List of my projects">projects</MainTitle>
+            <MainTitle subText="List of my projects">my-projects</MainTitle>
 
-            <SubTitle>current-projects</SubTitle>
+            <SubTitle>projects</SubTitle>
           </div>
         )}
 
@@ -32,6 +33,14 @@ const Projects = ({ home = false }) => {
             <ProjectCard key={index} project={project} />
           ))}
         </div>
+
+        {home && (
+          <div className="mt-10 md:hidden">
+            <AppLink href="projects" className="ml-auto hover:underline hover:text-purple">
+              {`${'View all ~~>'}`}
+            </AppLink>
+          </div>
+        )}
       </WrapSection>
 
       <DotsSVG className="w-20 h-20 absolute top-[5%] -left-14 hidden md:block" />

@@ -268,7 +268,6 @@ export const PROJECTS = [
     stack: ["ReactJS", "SCSS"],
   },
   {
-    id: 8,
     title: "Pixagram",
     description:
       "Pixagram is a responsive image web gallery that showcases a collection of images. Users can login to the gallery page, rearrange their images by dragging and dropping.",
@@ -276,10 +275,9 @@ export const PROJECTS = [
     code: "https://github.com/PraisesPJMT/Pixogram",
     link: "https://pixagram-app.netlify.app/",
     type: "desktop",
-    stack: ["ReactJS", "SCSS"],
+    stack: ["ReactJS", "SCSS", "CSS3"],
   },
   {
-    id: 2,
     title: "ToDo List HTML",
     description:
       "Webapp that displays a list of daily tasks and allows user to add, edit, and remove task from list.",
@@ -291,7 +289,6 @@ export const PROJECTS = [
     portrait: true,
   },
   {
-    id: 3,
     title: "Awesome Books",
     description:
       "Webapp that displays a list of books and allows user to add and remove books from list.",
@@ -303,7 +300,6 @@ export const PROJECTS = [
     stack: ["HTML", "CSS3", "JavaScript"],
   },
   {
-    id: 4,
     title: "Math Magicians",
     description:
       "Webapp that users can make simple calculations and read a random math-related quote.",
@@ -311,10 +307,9 @@ export const PROJECTS = [
     code: "https://github.com/PraisesPJMT/Math-Magicians-RX",
     link: "https://pjmt-math.netlify.app/",
     type: "desktop",
-    stack: ["ReactJS"],
+    stack: ["ReactJS", "CSS3"],
   },
   {
-    id: 5,
     title: "Leader Board",
     description:
       "Webapp that displays scores submitted by different players and preserves data externally via API service.",
@@ -322,10 +317,9 @@ export const PROJECTS = [
     code: "https://github.com/PraisesPJMT/Leaderboard",
     link: null,
     type: "desktop",
-    stack: ["ReactJS"],
+    stack: ["ReactJS", "CSS3"],
   },
   {
-    id: 7,
     title: 'Inkling Blog',
     description:
       'A classic blog website with full functionality of making posts, comments and likes.',
@@ -333,10 +327,9 @@ export const PROJECTS = [
     code: 'https://github.com/PraisesPJMT/Inkling-Blog-App',
     link: null,
     type: 'desktop',
-    stack: ['Rails', "TailwindCSS"],
+    stack: ["Rails", "TailwindCSS"],
   },
   {
-    id: 8,
     title: 'FoodPad',
     description:
       "App that keeps track of all users recipes, ingredients\n" +
@@ -345,10 +338,9 @@ export const PROJECTS = [
     code: 'https://github.com/PraisesPJMT/FoodPad-App',
     link: null,
     type: 'desktop',
-    stack: ['Rails', "TailwindCSS"],
+    stack: ["Rails", "TailwindCSS"],
   },
   {
-    id: 9,
     title: 'Fruugal',
     description:
       'Webapp where users can manage budgets by adding expenses into categories.',
@@ -356,11 +348,10 @@ export const PROJECTS = [
     code: 'https://github.com/PraisesPJMT/Fruugal',
     link: 'https://fruugal-production.up.railway.app/',
     type: 'mobile',
-    stack: ['Rails', "TailwindCSS"],
+    stack: ["Rails", "TailwindCSS"],
     portrait: true,
   },
   {
-    id: 10,
     title: 'Vip Cars',
     description:
       "Fullstack web application that allows users to make basic reservations of\n" +
@@ -369,7 +360,7 @@ export const PROJECTS = [
     code: 'https://github.com/PraisesPJMT/Vip_Cars_React',
     link: 'https://praisespjmt.github.io/To-Do-List/',
     type: 'desktop',
-    stack: ['React', 'Rails', 'TailwindCSS'],
+    stack: ["React", "Rails", "TailwindCSS"],
   },
 ];
 
@@ -379,14 +370,14 @@ export const AI_PROJECTS = [
     description:
       'Three risk scoring methods (Weighted Scoring Model, Logistic Regression Model, and Random Forest Model) using private datasets from the network logs of the Central Bank of Nigeria to enhance the risk scoring model for cybersecurity incidents.',
     code: 'https://github.com/PraisesPJMT/rs_model_cbn_kaduna',
-    stack: ['Python'],
+    stack: ["Python"],
   },
   {
     title: 'Simulating Malware Propagation in Nigeria',
     description:
       'Developed a simulation model to study the propagation of malware in Nigeria using Python.',
     code: 'https://github.com/PraisesPJMT/malware_effect_nigeria',
-    stack: ['Python'],
+    stack: ["Python"],
   },
 ];
 
