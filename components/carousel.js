@@ -70,7 +70,7 @@ const Carousel = ({ testimonials, orientation = ORIENTATION.HORIZONTAL }) => {
   // Container classes based on orientation
   const containerClasses = isVertical 
     ? "relative h-[400px] w-full overflow-hidden rounded-xl"
-    : "relative h-[330px] w-full overflow-hidden rounded-xl";
+    : "relative h-[330px] md:h-[250px] w-full overflow-hidden rounded-xl";
 
   // Carousel container classes based on orientation
   const carouselContainerClasses = isVertical

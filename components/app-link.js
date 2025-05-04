@@ -5,11 +5,12 @@ const VARIANT_CLASSES = {
   SECONDARY: "border-tertiary hover:bg-tertiary/20",
 };
 
-const AppLink = ({ href = "", children, className = "", variant = "PRIMARY" }) => {
+const AppLink = ({ href = "", children, className = "", variant = "PRIMARY", ...rest }) => {
   return (
     <Link 
       href={href} 
       className={`w-fit py-2 px-4 border text-tertiary text-center font-medium hover:opacity-75 ${VARIANT_CLASSES[variant] || VARIANT_CLASSES.PRIMARY} ${className}`}
+      {...rest}
     >
       {children}
     </Link>
