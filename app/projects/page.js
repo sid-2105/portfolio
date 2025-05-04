@@ -1,4 +1,8 @@
-import { Section, WrapSection } from "@/components/sections";
+import { Seperator } from "@/components/sections";
+import AIProjects from "@/components/sections/ai-projects";
+import Projects from "@/components/sections/completed-projects";
+import OtherProjects from "@/components/sections/other-projects";
+import UtilProjects from "@/components/sections/util-projects";
 
 export const metadata = {
   title: "Praises Tula Projects | Software Engineer & Web Developer",
@@ -8,11 +12,13 @@ export const metadata = {
 export default function ProjectsPage() {
   return (
     <>
-      <Section>
-        <WrapSection>
-          <h1>Praises Tula - Projects</h1>
-        </WrapSection>
-      </Section>
+      <Projects />
+      <Seperator />
+      <AIProjects />
+      <Seperator />
+      <UtilProjects />
+      <Seperator />
+      <OtherProjects/>
     </>
   );
 }
