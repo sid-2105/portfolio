@@ -14,17 +14,17 @@ export const TESTIMONIALS = [
     link: "https://www.linkedin.com/in/michael-mesfin-haileyesus/",
   },
   {
-    name: "Sharon Kessio",
-    profile_picture: "/images/sharon_kessio.png",
-    location: "Nairobi, Kenya",
+    name: "Sandra Ejiofor",
+    profile_picture: "/images/sandra_ejofor.jpeg",
+    location: "Lagos, Nigeria",
     quote:
-      "Praise is easy to " +
-      "work with as he keeps time, fulfilled his part " +
-      "of agreements on group projects, well versed with the topics " +
-      "at hand as he did prior research, he is also keen " +
-      "on details which reduced time spent fixing bugs. I " +
-      "enjoyed working with Praises.",
-    link: "https://www.linkedin.com/in/sharon-kessio/",
+      "Praises Tula is one of the most reliable and hardworking developers \n" +
+      "I've come across.\n" +
+      "  Beyond his technical skills, he is a good team player , takes \n" +
+      "  feedback constructively and uses it to improve both the product and \n" +
+      "process. If you're looking for a developer who not only meets \n" +
+      "expectations but often exceeds them, Praise Tula is your go-to.",
+    link: "https://www.linkedin.com/in/sandra-ejiofor-838a35244/",
   },
   {
     name: "Aakash Verma",
@@ -38,6 +38,32 @@ export const TESTIMONIALS = [
       "attention to detail. In short, Praises is a delight and an incredible " +
       "asset to anyone lucky enough to work with him.",
     link: "https://www.linkedin.com/in/skyv2022/",
+  },
+  {
+    name: "Sharon Kessio",
+    profile_picture: "/images/sharon_kessio.png",
+    location: "Nairobi, Kenya",
+    quote:
+      "Praise is easy to " +
+      "work with as he keeps time, fulfilled his part " +
+      "of agreements on group projects, well versed with the topics " +
+      "at hand as he did prior research, he is also keen " +
+      "on details which reduced time spent fixing bugs. I " +
+      "enjoyed working with Praises.",
+    link: "https://www.linkedin.com/in/sharon-kessio/",
+  },
+  {
+    name: "Akolo Kusta",
+    profile_picture: "/images/akolo_kusta.jpeg",
+    location: "Abuja, Nigeria",
+    quote:
+      "Praises Tula is one of the sharpest frontend \n" +
+      "engineers I’ve worked with. He consistently delivers efficient, \n" +
+      "well-structured solutions that integrate smoothly with any \n" +
+      "backend setup. Praises is hardworking, brave in tackling challenges, \n" +
+      "and a strong communicator who collaborates effortlessly with the team. \n" +
+      "A solid professional and a real asset to any development team.",
+    link: "https://www.linkedin.com/in/akolo-jonah-kutsa/",
   },
 ];
 
@@ -125,12 +151,12 @@ export const SKILLS = {
 export const ABOUT_ME = [
   "Hello, i'm Praises!",
   "I'm a Full-Stack Software Engineer located in Nigeria. \n" +
-    "I have a great passion for UI creation, effects, animation\n" +
-    "and dynamic user experiences.",
+  "I have a great passion for UI creation, effects, animation\n" +
+  "and dynamic user experiences.",
   "I try to keep up with security and best practices and am \n" +
-    "always looking for new things to learn and new opportunities.",
+  "always looking for new things to learn and new opportunities.",
   "I'm interested in working on ambitious projects with positive \n" +
-    "people and goal-oriented companies.",
+  "people and goal-oriented companies.",
   "I am a Liverpool FC fan. I love swimming, watching TV series and travelling.",
 ];
 
@@ -166,6 +192,227 @@ export const CONTACT_INFO = {
     "However, if you have other request or question, don’t hesitate to contact me.",
   ],
 };
+
+export const FEATURED_PROJECTS = [
+  {
+    title: "V2Africa Labs",
+    description:
+      "V2Africa Labs is the leading platform for African startups and entrepreneurs to connect, collaborate, and scale their businesses.",
+    image: "/images/v2africa.gif",
+    code: "https://github.com/PraisesPJMT/v2africa",
+    link: "https://v2africa.com/",
+    type: "desktop",
+    stack: ["HTML5", "CSS3", "JavaScript", "JQuery", "Bootstrap"],
+  },
+  {
+    title: "Praises Tula",
+    description:
+      "Praises Tula is my personal portfolio website where I showcase my work and share my journey as a software engineer.",
+    image: "/images/praises_tula.gif",
+    code: "https://github.com/PraisesPJMT/praises",
+    link: "https://praisestula.com.ng/",
+    type: "desktop",
+    stack: ["NextJS", "TailwindCSS"],
+  },
+  {
+    title: "Zride Dashboard",
+    description:
+      "Zride Dashboard is a web dashboard that allows users to manage their rides, view their ride history, and save their favorite rides.",
+    image: "/images/zride_dashboard.gif",
+    code: "https://github.com/PraisesPJMT/Zride_Dashboard",
+    link: "https://zride.netlify.app",
+    type: "desktop",
+    stack: ["ReactJS", "TailwindCSS", "Redux"],
+  },
+  {
+    title: "Movie Box",
+    description:
+      "MovieBox movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies.",
+    image: "/images/moview-box.png",
+    code: "https://github.com/PraisesPJMT/Movie_Box",
+    link: "https://imdb-movie-box.netlify.app/",
+    type: "desktop",
+    stack: ["ReactJS", "SCSS"],
+  },
+  {
+    title: "Wedrop",
+    description:
+      "Webapp to check the current weather in different cities worldwide.",
+    image: "/images/wedrop-preview.gif",
+    code: "https://github.com/PraisesPJMT/Wedrop-App",
+    link: "https://wedrop-app.netlify.app/",
+    type: "mobile",
+    stack: ["ReactJS", "TailwindCSS"],
+    portrait: true,
+  },
+  {
+    title: "KadaTech Summit",
+    description: "Landing page for the KadaTech 2022 Summit in Kaduna Nigeria.",
+    image: "/images/summit.gif",
+    code: "https://github.com/PraisesPJMT/Kada-Tech-Summit",
+    link: "https://praisespjmt.github.io/Kada-Tech-Summit/",
+    type: "desktop",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+  },
+]
+
+export const PROJECTS = [
+  {
+    title: "Zride",
+    description:
+      "Zride is the landing page for the Zride app. It provides users with information about the app, its features, and how to download it.",
+    image: "/images/zride.gif",
+    code: "https://github.com/PraisesPJMT/zride-website",
+    link: "https://zride-app.netlify.app/",
+    type: "desktop",
+    stack: ["ReactJS", "SCSS"],
+  },
+  {
+    id: 8,
+    title: "Pixagram",
+    description:
+      "Pixagram is a responsive image web gallery that showcases a collection of images. Users can login to the gallery page, rearrange their images by dragging and dropping.",
+    image: "/images/pixagram.png",
+    code: "https://github.com/PraisesPJMT/Pixogram",
+    link: "https://pixagram-app.netlify.app/",
+    type: "desktop",
+    stack: ["ReactJS", "SCSS"],
+  },
+  {
+    id: 2,
+    title: "ToDo List HTML",
+    description:
+      "Webapp that displays a list of daily tasks and allows user to add, edit, and remove task from list.",
+    image: "/images/todo_list.png",
+    code: "https://github.com/PraisesPJMT/To-Do-List",
+    link: "https://praisespjmt.github.io/To-Do-List/",
+    type: "mobile",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    portrait: true,
+  },
+  {
+    id: 3,
+    title: "Awesome Books",
+    description:
+      "Webapp that displays a list of books and allows user to add and remove books from list.",
+
+    image: "/images/awesome_books.gif",
+    code: "https://github.com/PraisesPJMT/Awesome-Books-ES6",
+    link: "https://praisespjmt.github.io/Awesome-Books-ES6/#",
+    type: "desktop",
+    stack: ["HTML", "CSS3", "JavaScript"],
+  },
+  {
+    id: 4,
+    title: "Math Magicians",
+    description:
+      "Webapp that users can make simple calculations and read a random math-related quote.",
+    image: "/images/math_magicians.gif",
+    code: "https://github.com/PraisesPJMT/Math-Magicians-RX",
+    link: "https://pjmt-math.netlify.app/",
+    type: "desktop",
+    stack: ["ReactJS"],
+  },
+  {
+    id: 5,
+    title: "Leader Board",
+    description:
+      "Webapp that displays scores submitted by different players and preserves data externally via API service.",
+    image: "/images/leaderboard.jpeg",
+    code: "https://github.com/PraisesPJMT/Leaderboard",
+    link: null,
+    type: "desktop",
+    stack: ["ReactJS"],
+  },
+  {
+    id: 7,
+    title: 'Inkling Blog',
+    description:
+      'A classic blog website with full functionality of making posts, comments and likes.',
+    image: "/images/inkling_blog.png",
+    code: 'https://github.com/PraisesPJMT/Inkling-Blog-App',
+    link: null,
+    type: 'desktop',
+    stack: ['Rails', "TailwindCSS"],
+  },
+  {
+    id: 8,
+    title: 'FoodPad',
+    description:
+      "App that keeps track of all users recipes, ingredients\n" +
+      "and inventory and allow users to make changes to them.",
+    image: "/images/foodpad.png",
+    code: 'https://github.com/PraisesPJMT/FoodPad-App',
+    link: null,
+    type: 'desktop',
+    stack: ['Rails', "TailwindCSS"],
+  },
+  {
+    id: 9,
+    title: 'Fruugal',
+    description:
+      'Webapp where users can manage budgets by adding expenses into categories.',
+    image: "/images/fruugal.png",
+    code: 'https://github.com/PraisesPJMT/Fruugal',
+    link: 'https://fruugal-production.up.railway.app/',
+    type: 'mobile',
+    stack: ['Rails', "TailwindCSS"],
+    portrait: true,
+  },
+  {
+    id: 10,
+    title: 'Vip Cars',
+    description:
+      "Fullstack web application that allows users to make basic reservations of\n" +
+      "their favourite cars and as well add in a car for rent.",
+    image: "/images/vip_cars.png",
+    code: 'https://github.com/PraisesPJMT/Vip_Cars_React',
+    link: 'https://praisespjmt.github.io/To-Do-List/',
+    type: 'desktop',
+    stack: ['React', 'Rails', 'TailwindCSS'],
+  },
+];
+
+export const AI_PROJECTS = [
+  {
+    title: 'ML Based Risk Scoring Model for Cybersecurity Incidents in Banks',
+    description:
+      'Three risk scoring methods (Weighted Scoring Model, Logistic Regression Model, and Random Forest Model) using private datasets from the network logs of the Central Bank of Nigeria to enhance the risk scoring model for cybersecurity incidents.',
+    code: 'https://github.com/PraisesPJMT/rs_model_cbn_kaduna',
+    stack: ['Python'],
+  },
+  {
+    title: 'Simulating Malware Propagation in Nigeria',
+    description:
+      'Developed a simulation model to study the propagation of malware in Nigeria using Python.',
+    code: 'https://github.com/PraisesPJMT/malware_effect_nigeria',
+    stack: ['Python'],
+  },
+];
+
+export const UTIL_PROJECTS = [
+  {
+    title: 'SecFile',
+    description:
+      'SecFile is a cross-platform (Linux, Windows, & macOS) application built with Electron and ReactJS that secures files using AES-256-GCM encryption.',
+    code: 'https://github.com/PraisesPJMT/SecFile',
+    stack: ["Electron", "ReactJS", "AES-256-GCM"],
+  },
+  {
+    title: 'AionTab',
+    description:
+      'AionTab is an extension for chromium based browsers like Chrome, Chromium, Edge, Brave, etc. The extension replaces the default browser new tab with a cool dark looking tab that has functionality for multiple search engines options, bookmark of AI chat sites, bookmarks of utility sites, cool analogue clock and more.',
+    code: 'https://github.com/PraisesPJMT/AionTab-Extension',
+    stack: ["Manifest", "JavaScript", "CSS3", "HTML5"],
+  },
+  {
+    title: 'SecPass',
+    description:
+      'PassGuard is a browser extension that manages browser login credentials and store them locally using AES encryption.',
+    code: 'https://github.com/PraisesPJMT/sec-pass',
+    stack: ["AES-256-GCM", "Manifest", "JavaScript", "CSS3", "HTML5"],
+  },  
+]
 
 // nsc.go54.com
 // nsd.go54.com
