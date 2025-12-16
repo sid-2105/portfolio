@@ -14,14 +14,17 @@ const firaCode = Fira_Code({
 
 export const metadata = {
   title: "Praises Tula | Software Engineer & Web Developer",
-  description: "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences with expertise in JavaScript, TypeScript, React, and NextJS.",
-  keywords: "Praises Musa, Praises Tula, Software Engineer, Frontend Developer, Web Developer, NextJS, React, JavaScript, TypeScript, Nigeria, Portfolio",
+  description:
+    "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences with expertise in JavaScript, TypeScript, React, and NextJS.",
+  keywords:
+    "Praises Musa, Praises Tula, Software Engineer, Frontend Developer, Web Developer, NextJS, React, JavaScript, TypeScript, Nigeria, Portfolio",
   authors: [{ name: "Praises Tula", url: "https://praisestula.com.ng" }],
   creator: "Praises Tula",
   publisher: "Praises Tula",
   openGraph: {
     title: "Praises Tula | Software Engineer & Web Developer",
-    description: "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
+    description:
+      "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
     url: "https://praisestula.com",
     siteName: "Praises Tula Portfolio",
     locale: "en_US",
@@ -30,7 +33,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Praises Tula | Software Engineer & Web Developer",
-    description: "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
+    description:
+      "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
     creator: "@PraisesTula",
   },
   robots: {
@@ -45,7 +49,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={firaCode.className}>
-      <body className="w-full min-h-screen bg-secondary flex flex-col antialiased">
+      <body
+        suppressHydrationWarning
+        className="w-full min-h-screen bg-secondary flex flex-col antialiased"
+      >
         <ThemeProvider>
           <Header />
           <main className="flex-grow">{children}</main>
