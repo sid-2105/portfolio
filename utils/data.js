@@ -126,7 +126,7 @@ export const PROFILE_LINKS = {
 };
 
 export const SKILLS = {
-  LANGUAGES: ["JavaScript", "TypeScript", "Python", "Ruby", "C++"],
+  LANGUAGES: ["JavaScript", "TypeScript", "Python", "Ruby"],
   DATABASE: ["PostgreSQL", "SQLite", "MongoDB"],
   FRAMEWORKS: [
     "ReactJS",
@@ -151,12 +151,12 @@ export const SKILLS = {
 export const ABOUT_ME = [
   "Hello, i'm Praises!",
   "I'm a Full-Stack Software Engineer located in Nigeria. \n" +
-  "I have a great passion for UI creation, effects, animation\n" +
-  "and dynamic user experiences.",
+    "I have a great passion for UI creation, effects, animation\n" +
+    "and dynamic user experiences.",
   "I try to keep up with security and best practices and am \n" +
-  "always looking for new things to learn and new opportunities.",
+    "always looking for new things to learn and new opportunities.",
   "I'm interested in working on ambitious projects with positive \n" +
-  "people and goal-oriented companies.",
+    "people and goal-oriented companies.",
   "I am a Liverpool FC fan. I love swimming, watching TV series and travelling.",
 ];
 
@@ -164,13 +164,13 @@ export const SUMMARY =
   "Detail-oriented software engineer with great passion for UI\n" +
   " creation, effects, animation and dynamic user experiences. Major\n" +
   " tech stack includes NextJS, ReactJS, Ruby-on-Rails, NodeJS,\n" +
-  " Postgresql, JavaScript, TypeScript, Python, C++ and Redux. Devoted to\n" +
+  " Postgresql, JavaScript, TypeScript, Python and Redux. Devoted to\n" +
   " developing customized software to meet organisational needs,\n" +
   " highlight their core competencies, and further their success.";
 
 export const CURRENT_WORK = {
-  WORK: "Acire Dashboard",
-  LINK: "",
+  WORK: "MPG Events",
+  LINK: "https://main.d1wmzsbylqs2p.amplifyapp.com/",
 };
 
 export const FUN_FACTS = [
@@ -195,14 +195,23 @@ export const CONTACT_INFO = {
 
 export const FEATURED_PROJECTS = [
   {
-    title: "V2Africa Labs",
+    title: "Shakarrar",
     description:
-      "V2Africa Labs is the leading platform for African startups and entrepreneurs to connect, collaborate, and scale their businesses.",
-    image: "/images/v2africa.gif",
-    code: "https://github.com/PraisesPJMT/v2africa",
-    link: "https://v2africa.com/",
+      "Shakarra is a platform that allows you to shop from your favorite U.S. retailers and pay in naira. Simply browse, add items to your cart, and we'll handle the ...",
+    image: "/images/shakarrar.gif",
+    // code: "https://github.com/PraisesPJMT/v2africa",
+    link: "https://www.shakarra.com/",
+    // link: "https://v2africa.com/",
     type: "desktop",
-    stack: ["HTML5", "CSS3", "JavaScript", "JQuery", "Bootstrap"],
+    stack: [
+      "ReactJS",
+      "TypeScript",
+      "TailwindCSS",
+      "Redux",
+      "Google Auth",
+      "Stripe",
+      "Paystack",
+    ],
   },
   {
     title: "Praises Tula",
@@ -215,6 +224,46 @@ export const FEATURED_PROJECTS = [
     stack: ["NextJS", "TailwindCSS"],
   },
   {
+    title: "V2Africa Labs",
+    description:
+      "V2Africa Labs is the leading platform for African startups and entrepreneurs to connect, collaborate, and scale their businesses.",
+    image: "/images/v2africa.gif",
+    // code: "https://github.com/PraisesPJMT/v2africa",
+    link: "https://6940380b470f5b0ccec03ae1--v2africa.netlify.app/",
+    // link: "https://v2africa.com/",
+    type: "desktop",
+    stack: ["HTML5", "CSS3", "JavaScript", "JQuery", "Bootstrap"],
+  },
+  {
+    title: "MPG Events",
+    description:
+      "MPG Events is a platform that helps you plan and organize your events, including weddings, conferences, and corporate events with ticketing and payment processing.",
+    image: "/images/mpg_events.gif",
+    // code: "https://github.com/PraisesPJMT/v2africa",
+    link: "https://main.d1wmzsbylqs2p.amplifyapp.com/",
+    // link: "https://v2africa.com/",
+    type: "desktop",
+    stack: [
+      "ReactJS",
+      "TypeScript",
+      "TailwindCSS",
+      "Redux",
+      "Google Auth",
+      "Stripe",
+    ],
+  },
+  {
+    title: "Plans",
+    description:
+      "A sleek, accessible, and feature-rich todo application built with React, TypeScript, and Vite. Manage your tasks with style using modern drag-and-drop functionality, real-time filtering, and beautiful modal dialogs.",
+    image: "/images/plans.gif",
+    code: "https://github.com/PraisesPJMT/Plans",
+    link: "https://plansapp.netlify.app/",
+    // link: "https://v2africa.com/",
+    type: "desktop",
+    stack: ["ReactJS", "TypeScript", "TailwindCSS", "Dark Mode"],
+  },
+  {
     title: "Zride Dashboard",
     description:
       "Zride Dashboard is a web dashboard that allows users to manage their rides, view their ride history, and save their favorite rides.",
@@ -224,6 +273,9 @@ export const FEATURED_PROJECTS = [
     type: "desktop",
     stack: ["ReactJS", "TailwindCSS", "Redux"],
   },
+];
+
+export const PROJECTS = [
   {
     title: "Movie Box",
     description:
@@ -254,9 +306,6 @@ export const FEATURED_PROJECTS = [
     type: "desktop",
     stack: ["HTML5", "CSS3", "JavaScript"],
   },
-]
-
-export const PROJECTS = [
   {
     title: "Zride",
     description:
@@ -320,90 +369,90 @@ export const PROJECTS = [
     stack: ["ReactJS", "CSS3"],
   },
   {
-    title: 'Inkling Blog',
+    title: "Inkling Blog",
     description:
-      'A classic blog website with full functionality of making posts, comments and likes.',
+      "A classic blog website with full functionality of making posts, comments and likes.",
     image: "/images/inkling_blog.png",
-    code: 'https://github.com/PraisesPJMT/Inkling-Blog-App',
+    code: "https://github.com/PraisesPJMT/Inkling-Blog-App",
     link: null,
-    type: 'desktop',
+    type: "desktop",
     stack: ["Rails", "TailwindCSS"],
   },
   {
-    title: 'FoodPad',
+    title: "FoodPad",
     description:
       "App that keeps track of all users recipes, ingredients\n" +
       "and inventory and allow users to make changes to them.",
     image: "/images/foodpad.png",
-    code: 'https://github.com/PraisesPJMT/FoodPad-App',
+    code: "https://github.com/PraisesPJMT/FoodPad-App",
     link: null,
-    type: 'desktop',
+    type: "desktop",
     stack: ["Rails", "TailwindCSS"],
   },
   {
-    title: 'Fruugal',
+    title: "Fruugal",
     description:
-      'Webapp where users can manage budgets by adding expenses into categories.',
+      "Webapp where users can manage budgets by adding expenses into categories.",
     image: "/images/fruugal.png",
-    code: 'https://github.com/PraisesPJMT/Fruugal',
-    link: 'https://fruugal-production.up.railway.app/',
-    type: 'mobile',
+    code: "https://github.com/PraisesPJMT/Fruugal",
+    link: "https://fruugal-production.up.railway.app/",
+    type: "mobile",
     stack: ["Rails", "TailwindCSS"],
     portrait: true,
   },
   {
-    title: 'Vip Cars',
+    title: "Vip Cars",
     description:
       "Fullstack web application that allows users to make basic reservations of\n" +
       "their favourite cars and as well add in a car for rent.",
     image: "/images/vip_cars.png",
-    code: 'https://github.com/PraisesPJMT/Vip_Cars_React',
-    link: 'https://praisespjmt.github.io/To-Do-List/',
-    type: 'desktop',
+    code: "https://github.com/PraisesPJMT/Vip_Cars_React",
+    link: "https://praisespjmt.github.io/To-Do-List/",
+    type: "desktop",
     stack: ["React", "Rails", "TailwindCSS"],
   },
 ];
 
 export const AI_PROJECTS = [
   {
-    title: 'ML Based Risk Scoring Model for Cybersecurity Incidents in Banks',
+    title: "ML Based Risk Scoring Model for Cybersecurity Incidents in Banks",
     description:
-      'Three risk scoring methods (Weighted Scoring Model, Logistic Regression Model, and Random Forest Model) using private datasets from the network logs of the Central Bank of Nigeria to enhance the risk scoring model for cybersecurity incidents.',
-    code: 'https://github.com/PraisesPJMT/rs_model_cbn_kaduna',
+      "Three risk scoring methods (Weighted Scoring Model, Logistic Regression Model, and Random Forest Model) using private datasets from the network logs of the Central Bank of Nigeria to enhance the risk scoring model for cybersecurity incidents.",
+    code: "https://github.com/PraisesPJMT/rs_model_cbn_kaduna",
     stack: ["Python"],
   },
   {
-    title: 'Simulating Malware Propagation in Nigeria',
+    title: "Simulating Malware Propagation in Nigeria",
     description:
-      'Developed a simulation model to study the propagation of malware in Nigeria using Python.',
-    code: 'https://github.com/PraisesPJMT/malware_effect_nigeria',
+      "Developed a simulation model to study the propagation of malware in Nigeria using Python.",
+    code: "https://github.com/PraisesPJMT/malware_effect_nigeria",
     stack: ["Python"],
   },
 ];
 
 export const UTIL_PROJECTS = [
   {
-    title: 'SecFile',
+    title: "SecFile",
     description:
-      'SecFile is a cross-platform (Linux, Windows, & macOS) application built with Electron and ReactJS that secures files using AES-256-GCM encryption.',
-    code: 'https://github.com/PraisesPJMT/SecFile',
+      "SecFile is a cross-platform (Linux, Windows, & macOS) application built with Electron and ReactJS that secures files using AES-256-GCM encryption.",
+    code: "https://github.com/PraisesPJMT/SecFile",
     stack: ["Electron", "ReactJS", "AES-256-GCM"],
   },
   {
-    title: 'AionTab',
+    title: "AionTab",
     description:
-      'AionTab is an extension for chromium based browsers like Chrome, Chromium, Edge, Brave, etc. The extension replaces the default browser new tab with a cool dark looking tab that has functionality for multiple search engines options, bookmark of AI chat sites, bookmarks of utility sites, cool analogue clock and more.',
-    code: 'https://github.com/PraisesPJMT/AionTab-Extension',
+      "AionTab is an extension for chromium based browsers like Chrome, Chromium, Edge, Brave, etc. The extension replaces the default browser new tab with a cool dark looking tab that has functionality for multiple search engines options, bookmark of AI chat sites, bookmarks of utility sites, cool analogue clock and more.",
+    code: "https://github.com/PraisesPJMT/AionTab-Extension",
     stack: ["Manifest", "JavaScript", "CSS3", "HTML5"],
   },
   {
-    title: 'SecPass',
+    title: "SecPass",
     description:
-      'PassGuard is a browser extension that manages browser login credentials and store them locally using AES encryption.',
-    code: 'https://github.com/PraisesPJMT/sec-pass',
+      "PassGuard is a browser extension that manages browser login credentials and store them locally using AES encryption.",
+    code: "https://github.com/PraisesPJMT/sec-pass",
     stack: ["AES-256-GCM", "Manifest", "JavaScript", "CSS3", "HTML5"],
-  },  
-]
+  },
+];
 
 // nsc.go54.com
 // nsd.go54.com
