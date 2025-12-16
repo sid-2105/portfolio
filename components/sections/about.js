@@ -58,18 +58,19 @@ export default function About({ home = false }) {
             <span className="w-4 h-4 bg-purple"></span>
             <PrimaryText>Currently working on</PrimaryText>
             <TertiaryText>
-              <Link
+              <a
                 href={CURRENT_WORK.LINK}
                 className="hover:underline font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {CURRENT_WORK.WORK}
-              </Link>
+              </a>
             </TertiaryText>
           </div>
         </div>
       </WrapSection>
 
-      
       <DotsSVG className="w-20 h-20 absolute bottom-[5%] -right-4 hidden md:block" />
 
       {home ? (
