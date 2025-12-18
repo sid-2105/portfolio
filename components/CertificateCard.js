@@ -25,7 +25,7 @@ export const CertificateCard = ({ certificate }) => {
         </Link>
       </div>
 
-      <div className="border-y border-y-tertiary flex flex-wrap items-center gap-2 p-2 overflow-x-auto">
+      <div className="border-b border-b-tertiary flex flex-wrap items-center gap-2 p-2 overflow-x-auto">
         <Link
           href={certificate.provider.url}
           target="_blank"
