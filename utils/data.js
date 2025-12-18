@@ -454,6 +454,141 @@ export const UTIL_PROJECTS = [
   },
 ];
 
+export const CERTIFICATES = [
+  {
+    title: "Operating Systems Basics",
+    description:
+      "Earn this credential after completing a course that covers the basics of operating systems, including Linux, Windows, Mac, Android, and iOS.",
+    date: "September 2025",
+    skills: ["Linux OS", "Windows OS", "Mac OS", "Android OS", "iOS OS"],
+    link: "https://drive.proton.me/urls/96RR3AQETC#jVEpAlAy10qG",
+    provider: {
+      name: "CISCO Networking Academy",
+      url: "https://www.netacad.com/",
+      logo: "/images/cisco.png",
+    },
+  },
+  {
+    title: "Software Development",
+    description:
+      "Earn this credential after going through a youth program that teaches you how to build software applications through a series of projects and collaborations.",
+    date: "June 2025",
+    skills: ["Software Development", "Teamwork", "Communication"],
+    link: "https://justdocs.rentta.ng/download/praises-tula--4fea515c-915a-4762-ac4b-e9859f7d5064",
+    provider: {
+      name: "Tech4Dev",
+      url: "https://tech4dev.com/",
+      logo: "/images/tech4dev.png",
+    },
+  },
+  {
+    title: "Microverse Software Development Program",
+    description:
+      "Earn this credential after working through 1500+ hours of remote pair programming, learning to code with teams from around the world.",
+    date: "February 2023",
+    skills: [
+      "Full Stack Software Development",
+      "Pair-Programming",
+      "Remote Best Practices",
+      "Professional Skills",
+    ],
+    link: "https://www.credential.net/2df56665-a3df-4e85-87d9-41e77ce07bf4#acc.dSpAjDeh",
+    provider: {
+      name: "Microverse",
+      url: "https://www.microverse.org/full-stack-program",
+      logo: "/images/microverse.webp",
+    },
+  },
+  // {
+  //   title: "Microverse Final Capstone Module",
+  //   description:
+  //     "Earn this credential after demonstrating the ability to collaborate with other students in order to develop a project based on business requirements. This project consists of React & Redux frontend part and Ruby on Rails API as the backend part and is presented to an external evaluator.",
+  //   date: "January 2023",
+  //   skills: [
+  //     "Full Stack Software Development",
+  //     "Pair-Programming",
+  //     "Remote Best Practices",
+  //     "Project Development Skills",
+  //   ],
+  //   link: "https://www.credential.net/cf908c91-8de7-4503-a490-08139664a6a4#acc.WBhCszcD",
+  //   provider: {
+  //     name: "Microverse",
+  //     url: "https://www.microverse.org/full-stack-program",
+  //     logo: "/images/microverse.webp",
+  //   },
+  // },
+  {
+    title: "Microverse Ruby on Rails Module",
+    description:
+      "Earn this credential upon demonstrating mastery of Ruby on Rails by building multiple real-world Rails applications alongside software developers from all over the world.",
+    date: "January 2023",
+    skills: [
+      "Ruby on Rails",
+      "Ruby",
+      "Web Development",
+      "Back End Web Development",
+    ],
+    link: "https://www.credential.net/fceb8dd5-0438-4849-b030-341a2e3d71ca#acc.1IAk3RCS",
+    provider: {
+      name: "Microverse",
+      url: "https://www.microverse.org/full-stack-program",
+      logo: "/images/microverse.webp",
+    },
+  },
+  {
+    title: "Microverse Ruby/Databases Module",
+    description:
+      "Earn this credential after demonstrating thorough and complete understanding of Ruby and databases by building multiple projects while collaborating and pair programming remotely with developers across the world.",
+    date: "November 2022",
+    skills: ["Ruby", "Databases"],
+    link: "https://www.credential.net/46b80cae-5b63-4b4f-9d9b-6b777561cf22#acc.ck4njYX0",
+    provider: {
+      name: "Microverse",
+      url: "https://www.microverse.org/full-stack-program",
+      logo: "/images/microverse.webp",
+    },
+  },
+  {
+    title: "Microverse React & Redux Module",
+    description:
+      "Earn this credential after demonstrating thorough understanding and mastery of React and Redux. Over the course of this module, students build and develop multiple projects using React and Redux, working both independently and while remotely pair-programming.",
+    date: "October 2022",
+    skills: ["React", "Redux", "JavaScript", "Front End Web Development"],
+    link: "https://www.credential.net/fb9b9cc1-b20f-43e5-b7d1-956afeb14af8#acc.YMuQ36nv",
+    provider: {
+      name: "Microverse",
+      url: "https://www.microverse.org/full-stack-program",
+      logo: "/images/microverse.webp",
+    },
+  },
+  // {
+  //   title: "Microverse JavaScript Module",
+  //   description:
+  //     "Earn this credential after demonstrating understanding and mastery of JavaScript. During the course of this module, they build several projects using JavaScript while pair-programming remotely with an international team of software developers.",
+  //   date: "September 2022",
+  //   skills: ["JavaScript", "TypeScript", "ESLint", "ES6"],
+  //   link: "https://www.credential.net/f2ff7a60-de64-426b-b6cc-82c3a8190090#acc.hFE7BLxz",
+  //   provider: {
+  //     name: "Microverse",
+  //     url: "https://www.microverse.org/full-stack-program",
+  //     logo: "/images/microverse.webp",
+  //   },
+  // },
+  // {
+  //   title: "Microverse HTML/CSS Module",
+  //   description:
+  //     "Earn this credential after demonstrating industry standard HTML and CSS skills, achieved working on remote pair programming with teams from around the world.",
+  //   date: "July 2022",
+  //   skills: ["HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
+  //   link: "https://www.credential.net/77cfac63-7700-4a04-8cca-88c39c8a2703#acc.IjZ8r5Ui",
+  //   provider: {
+  //     name: "Microverse",
+  //     url: "https://www.microverse.org/full-stack-program",
+  //     logo: "/images/microverse.webp",
+  //   },
+  // },
+];
+
 // nsc.go54.com
 // nsd.go54.com
 // https://www.whogohost.com/host/clientarea.php?action=domaindetails#tabNameservers
