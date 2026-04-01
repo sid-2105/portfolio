@@ -16,7 +16,7 @@ export default function Hello() {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[3fr_2fr]">
           <div className="m-auto flex flex-col gap-4">
             <h1 className="text-[32px] font-bold">
-              Praises is a <PurpleText>software engineer</PurpleText> and{" "}
+              Siddharth  is a <PurpleText>software engineer</PurpleText> and{" "}
               <PurpleText>front-end developer</PurpleText>
             </h1>
             <PrimaryText>{SUMMARY}</PrimaryText>

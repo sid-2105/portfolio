@@ -99,29 +99,25 @@ export const QUOTES = [
 
 export const PROFILE_LINKS = {
   LINKEDIN: {
-    LINK: "https://www.linkedin.com/in/praises-tula",
-    LABEL: "Praises Tula",
+    LINK: "https://www.linkedin.com/in/siddharth-mishra-363194225",
+    LABEL: "Siddharth Mishra",
   },
   GITHUB: {
-    LINK: "https://github.com/PraisesPJMT",
-    LABEL: "@PraisesPJMT",
+    LINK: "https://github.com/sid-2105",
+    LABEL: "@SiddharthMishra",
   },
   TWITTER: {
-    LINK: "https://twitter.com/PraisesPJMT",
-    LABEL: "@PraisesPJMT",
+    LINK: "https://twitter.com/_sidverse",
+    LABEL: "@_sidverse",
   },
   // INSTAGRAM: 'https://www.instagram.com/praises_tula',
-  FACEBOOK: {
-    LINK: "https://web.facebook.com/praises.musa",
-    LABEL: "Praises Musa",
-  },
-  MASTODON: {
-    LINK: "https://ruby.social/@pjmt",
-    LABEL: "@pjmt",
+  INSTAGRAM: {
+    LINK: "https://www.instagram.com/_siddhuvibes",
+    LABEL: "Siddharth Mishra",
   },
   EMAIL: {
-    LINK: "dev.praises@gmail.com",
-    LABEL: "dev.praises@gmail.com",
+    LINK: "hello@sidmcodes.com",
+    LABEL: "hello@sidmcodes.com",
   },
 };
 

@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
 
             <p className="text-tertiary">
-              Software engineer and frontend developer
+              Software engineer
             </p>
           </div>
 
@@ -106,7 +106,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <p>&copy; Copyright {new Date().getFullYear()}, Praises Tula</p>
+        <p>&copy; Copyright {new Date().getFullYear()}, Siddharth Mishra</p>
       </WrapSection>
     </footer>
   );

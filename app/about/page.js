@@ -7,9 +7,9 @@ import Testimonials from "@/components/sections/testimonials";
 import Certifications from "@/components/sections/certifications";
 
 export const metadata = {
-  title: "About Praises Tula | Software Engineer & Web Developer",
+  title: "About Siddharth Mishra | Software Engineer & Web Developer",
   description:
-    "Learn about Praises Tula's journey, skills, and experience as a Software Engineer specializing in UI development and animations.",
+    "Learn about Siddharth Mishra's journey, skills, and experience as a Software Engineer specializing in UI development and animations.",
 };
 
 export default function AboutPage() {

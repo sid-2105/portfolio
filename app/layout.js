@@ -13,28 +13,28 @@ const firaCode = Fira_Code({
 });
 
 export const metadata = {
-  title: "Praises Tula | Software Engineer & Web Developer",
+  title: "Siddharth Mishra | Software Engineer & Web Developer",
   description:
-    "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences with expertise in JavaScript, TypeScript, React, and NextJS.",
+    "Portfolio of Siddharth Mishra, a Software Engineer specializing in UI creation, animations, and dynamic user experiences with expertise in JavaScript, TypeScript, React, and NextJS.",
   keywords:
-    "Praises Musa, Praises Tula, Software Engineer, Frontend Developer, Web Developer, NextJS, React, JavaScript, TypeScript, Nigeria, Portfolio",
-  authors: [{ name: "Praises Tula", url: "https://praisestula.com.ng" }],
-  creator: "Praises Tula",
-  publisher: "Praises Tula",
+    "Praises Musa, Siddharth Mishra, Software Engineer, Frontend Developer, Web Developer, NextJS, React, JavaScript, TypeScript, Nigeria, Portfolio",
+  authors: [{ name: "Siddharth Mishra", url: "https://praisestula.com.ng" }],
+  creator: "Siddharth Mishra",
+  publisher: "Siddharth Mishra",
   openGraph: {
-    title: "Praises Tula | Software Engineer & Web Developer",
+    title: "Siddharth Mishra | Software Engineer & Web Developer",
     description:
-      "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
+      "Portfolio of Siddharth Mishra, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
     url: "https://praisestula.com",
-    siteName: "Praises Tula Portfolio",
+    siteName: "Siddharth Mishra Portfolio",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Praises Tula | Software Engineer & Web Developer",
+    title: "Siddharth Mishra | Software Engineer & Web Developer",
     description:
-      "Portfolio of Praises Tula, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
+      "Portfolio of Siddharth Mishra, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
     creator: "@PraisesTula",
   },
   robots: {

@@ -48,7 +48,7 @@ const Header = () => {
       <WrapSection className="pt-8 pb-2 flex items-center justify-between gap-4 w-full">
         <Link href="/" className="text-base font-bold flex items-center gap-2">
           <Logo size={20} />
-          Praises
+          Sid
         </Link>
 
         {/* Desktop Navigation */}
