@@ -67,23 +67,11 @@ export default function AllMedia() {
               </a>
             </li>
 
-            <li className="h-fit">
-              <a
-                href={PROFILE_LINKS.MASTODON.LINK}
-                target="_blank"
-                className="p-0.5 h-fit flex items-center gap-3 transition-all duration-100 ease-in-out text-primary hover:text-tertiary hover:underline"
-                title="My Mastodon Profile"
-                aria-label="My Mastodon Profile"
-                aria-describedby="masterdon-profile-link"
-              >
-                <FaMastodon className="h-8 w-8" />
-                {PROFILE_LINKS.MASTODON.LABEL}
-              </a>
-            </li>
+        
 
             <li className="h-fit">
               <a
-                href={PROFILE_LINKS.FACEBOOK.LINK}
+                href={PROFILE_LINKS.INSTAGRAM.LINK}
                 target="_blank"
                 className="p-0.5 h-fit flex items-center gap-3 transition-all duration-100 ease-in-out text-primary hover:text-tertiary hover:underline"
                 title="My Facebook Profile"
@@ -91,7 +79,7 @@ export default function AllMedia() {
                 aria-describedby="facebook-profile-link"
               >
                 <FaFacebookF className="h-8 w-8" />
-                {PROFILE_LINKS.FACEBOOK.LABEL}
+                {PROFILE_LINKS.INSTAGRAM.LABEL}
               </a>
             </li>
           </ul>

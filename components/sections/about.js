@@ -56,7 +56,7 @@ export default function About({ home = false }) {
 
           <div className="w-fit mx-auto border border-tertiary p-2 flex items-center gap-2.5">
             <span className="w-4 h-4 bg-purple"></span>
-            <PrimaryText>Currently working on</PrimaryText>
+            <PrimaryText>Currently working in</PrimaryText>
             <TertiaryText>
               <a
                 href={CURRENT_WORK.LINK}

@@ -4,10 +4,13 @@ import { PurpleText, PrimaryText } from "../texts";
 import { TESTIMONIALS, SUMMARY } from "@/utils/data";
 
 import Link from "next/link";
+import Image from "next/image";
+import DotsSVG from "../assets/DotsSVG";
 import AppLink from "../app-link";
 import Carousel from "../carousel";
 import QuoteCarousel from "../quote-carousel";
 import RectangleSVG from "../assets/RectangleSVG";
+import DesignSVG from "../assets/DesignSVG";
 
 export default function Hello() {
   return (
@@ -23,12 +26,24 @@ export default function Hello() {
             <AppLink href="contact">Contact me!!</AppLink>
           </div>
 
-          <div>
+          {/* <div>
             <Carousel
               testimonials={TESTIMONIALS}
               orientation={ORIENTATION.VERTICAL}
             />
-          </div>
+          </div> */}
+             <div className="relative grow flex flex-col h-auto min-h-[200px] w-fit min-w-[250px] mx-auto">
+                      <Image
+                        src="/images/profile.svg"
+                        alt="About Me"
+                        layout="fill"
+                        objectFit="contain"
+                        className="z-10 "
+                      />
+          
+                      <DotsSVG className="w-14 h-14 md:w-16 md:h-16 absolute bottom-[20%] right-0 z-10" />
+                      <DesignSVG className="w-26 h-26 absolute top-0 left-0" />
+                    </div>
         </div>
 
         <QuoteCarousel />

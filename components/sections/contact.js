@@ -82,7 +82,7 @@ export default function Contact({ home = false }) {
                   target="_blank"
                 >
                   <FaLinkedinIn className="text-2xl" />
-                  @PraisesPJMT
+                  @SiddharthMishra
                 </Link>,
               ]}
               block

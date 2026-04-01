@@ -145,8 +145,8 @@ export const SKILLS = {
 };
 
 export const ABOUT_ME = [
-  "Hello, i'm Praises!",
-  "I'm a Full-Stack Software Engineer located in Nigeria. \n" +
+  "Hello, i'm Siddharth!",
+  "I'm a Full-Stack Software Engineer located in India. \n" +
     "I have a great passion for UI creation, effects, animation\n" +
     "and dynamic user experiences.",
   "I try to keep up with security and best practices and am \n" +
@@ -165,8 +165,8 @@ export const SUMMARY =
   " highlight their core competencies, and further their success.";
 
 export const CURRENT_WORK = {
-  WORK: "MPG Events",
-  LINK: "https://main.d1wmzsbylqs2p.amplifyapp.com/",
+  WORK: "INFOSYS",
+  LINK: "https://infosys.com/",
 };
 
 export const FUN_FACTS = [
@@ -181,8 +181,8 @@ export const FUN_FACTS = [
 ];
 
 export const CONTACT_INFO = {
-  EMAIL: "dev.praises@gmail.com",
-  PHONE: "+2348085852828",
+  EMAIL: "hello@sidmcodes.com",
+  PHONE: "+91 9454500340",
   NOTE: [
     "I'm interested in working on ambitious projects with positive people and goal-oriented companies.",
     "However, if you have other request or question, don’t hesitate to contact me.",
@@ -210,9 +210,9 @@ export const FEATURED_PROJECTS = [
     ],
   },
   {
-    title: "Praises Tula",
+    title: "Sidmcodes",
     description:
-      "Praises Tula is my personal portfolio website where I showcase my work and share my journey as a software engineer.",
+      "Sidmcodes is my personal portfolio website where I showcase my work and share my journey as a software engineer.",
     image: "/images/praises_tula.gif",
     code: "https://github.com/PraisesPJMT/praises",
     link: "https://praisestula.com.ng/",

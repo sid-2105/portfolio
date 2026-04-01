@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <h6 className="text-tertiary flex items-center gap-1">
                 <Logo size={20} />
-                Praises
+                Sid
               </h6>
 
               <a
@@ -78,22 +78,10 @@ const Footer = () => {
                 </a>
               </li>
 
-              <li className="h-fit">
-                <a
-                  href={PROFILE_LINKS.MASTODON.LINK}
-                  target="_blank"
-                  className="p-0.5 h-fit flex items-center justify-center  transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1"
-                  title="My Mastodon Profile"
-                  aria-label="My Mastodon Profile"
-                  aria-describedby="masterdon-profile-link"
-                >
-                  <FaMastodon className="h-5 w-5" />
-                </a>
-              </li>
 
               <li className="h-fit">
                 <a
-                  href={PROFILE_LINKS.FACEBOOK.LINK}
+                  href={PROFILE_LINKS.INSTAGRAM.LINK}
                   target="_blank"
                   className="p-0.5 h-fit flex items-center justify-center  transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1"
                   title="My Facebook Profile"
