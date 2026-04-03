@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sidmcodes.com
+
+# Sitemaps
+Sitemap: https://sidmcodes.com/sitemap.xml
