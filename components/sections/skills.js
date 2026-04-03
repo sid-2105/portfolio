@@ -34,12 +34,14 @@ export default function Skills({ home = false }) {
           <div
             className={`mt-0 grid grid-cols-2 gap-3 sm:grid-cols-3 ${home ? "" : "md:grid-cols-4 lg:grid-cols-5"}`}
           >
-            <SkillCard title="Languages" skills={SKILLS.LANGUAGES} />
-            <SkillCard title="Frameworks" skills={SKILLS.FRAMEWORKS} />
-            <SkillCard title="Tools" skills={SKILLS.TOOLS} />
+            <SkillCard title="Languages" skills={SKILLS.PROGRAMMING} />
+            <SkillCard title="Big Data" skills={SKILLS.BIG_DATA} />
+            <SkillCard title="ML" skills={SKILLS.MACHINE_LEARNING} />
+            <SkillCard title="ETL" skills={SKILLS.ETL_AND_DATA} />
             {home && <div className="hidden sm:block"></div>}
-            <SkillCard title="Database" skills={SKILLS.DATABASE} />
-            <SkillCard title="Others" skills={SKILLS.OTHERS} />
+            <SkillCard title="Web Development" skills={SKILLS.WEB_DEVELOPMENT} />
+            <SkillCard title="Low-code Development" skills={SKILLS.LOW_CODE} />
+            <SkillCard title="Tools" skills={SKILLS.TOOLS} />
           </div>
         </div>
       </WrapSection>

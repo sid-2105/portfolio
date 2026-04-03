@@ -1,69 +1,39 @@
 export const TESTIMONIALS = [
   {
-    name: "Michael Mesfin",
-    profile_picture: "/images/mishael_mesfin.png",
-    location: "Addis Ababa, Ethiopia",
+    name: "Alex Johnson",
+    profile_picture: "/images/profile.svg",
+    location: "Bangalore, India",
     quote:
-      "Praises is a great collaborator. When working with him\n" +
-      " he makes you feel calm and interested. He has proven\n" +
-      " himself as reliable, exceptionally having great attention to\n" +
-      " detail and his obsession with making great UI transpires through\n" +
-      " his work.\n" +
-      " I would recommend\n" +
-      " Praises for the role of Software Developer and so should you!",
-    link: "https://www.linkedin.com/in/michael-mesfin-haileyesus/",
+      "A highly motivated System Engineer with strong fundamentals in Machine Learning and Big Data. " +
+      "Shows great consistency in handling ETL pipelines and writing efficient Python and Java code.",
+    link: "#",
   },
   {
-    name: "Sandra Ejiofor",
-    profile_picture: "/images/sandra_ejofor.jpeg",
-    location: "Lagos, Nigeria",
+    name: "Emma Roberts",
+    profile_picture: "/images/profile.svg",
+    location: "Hyderabad, India",
     quote:
-      "Praises Tula is one of the most reliable and hardworking developers \n" +
-      "I've come across.\n" +
-      "  Beyond his technical skills, he is a good team player , takes \n" +
-      "  feedback constructively and uses it to improve both the product and \n" +
-      "process. If you're looking for a developer who not only meets \n" +
-      "expectations but often exceeds them, Praise Tula is your go-to.",
-    link: "https://www.linkedin.com/in/sandra-ejiofor-838a35244/",
+      "Demonstrates excellent problem-solving skills and a solid understanding of data engineering concepts. " +
+      "Quick learner with a strong grasp of backend systems and scalable data workflows.",
+    link: "#",
   },
   {
-    name: "Aakash Verma",
-    profile_picture: "/images/aakash_verma.png",
-    location: "Chennai, India",
+    name: "Daniel Kim",
+    profile_picture: "/images/profile.svg",
+    location: "Remote",
     quote:
-      "Praises is an intelligent and deeply creative person. " +
-      "He is thorough and has a great eye for detail. When Praises " +
-      "was working on a project, our error-correction needs were always " +
-      "reduced by half or more thanks to his outstanding diligence and " +
-      "attention to detail. In short, Praises is a delight and an incredible " +
-      "asset to anyone lucky enough to work with him.",
-    link: "https://www.linkedin.com/in/skyv2022/",
+      "Very detail-oriented and technically strong. Has a good foundation in AI/ML concepts and is actively " +
+      "building skills in Big Data processing and system design.",
+    link: "#",
   },
   {
-    name: "Sharon Kessio",
-    profile_picture: "/images/sharon_kessio.png",
-    location: "Nairobi, Kenya",
+    name: "Sophia Brown",
+    profile_picture: "/images/profile.svg",
+    location: "Pune, India",
     quote:
-      "Praise is easy to " +
-      "work with as he keeps time, fulfilled his part " +
-      "of agreements on group projects, well versed with the topics " +
-      "at hand as he did prior research, he is also keen " +
-      "on details which reduced time spent fixing bugs. I " +
-      "enjoyed working with Praises.",
-    link: "https://www.linkedin.com/in/sharon-kessio/",
-  },
-  {
-    name: "Akolo Kusta",
-    profile_picture: "/images/akolo_kusta.jpeg",
-    location: "Abuja, Nigeria",
-    quote:
-      "Praises Tula is one of the sharpest frontend \n" +
-      "engineers I’ve worked with. He consistently delivers efficient, \n" +
-      "well-structured solutions that integrate smoothly with any \n" +
-      "backend setup. Praises is hardworking, brave in tackling challenges, \n" +
-      "and a strong communicator who collaborates effortlessly with the team. \n" +
-      "A solid professional and a real asset to any development team.",
-    link: "https://www.linkedin.com/in/akolo-jonah-kutsa/",
+      "Consistent and disciplined in work. Strong understanding of ETL processes and continuously improving " +
+      "skills in Python, Java, and data-driven application development.",
+    link: "#",
   },
 ];
 
@@ -110,7 +80,6 @@ export const PROFILE_LINKS = {
     LINK: "https://twitter.com/_sidverse",
     LABEL: "@_sidverse",
   },
-  // INSTAGRAM: 'https://www.instagram.com/praises_tula',
   INSTAGRAM: {
     LINK: "https://www.instagram.com/_siddhuvibes",
     LABEL: "Siddharth Mishra",
@@ -122,47 +91,65 @@ export const PROFILE_LINKS = {
 };
 
 export const SKILLS = {
-  LANGUAGES: ["JavaScript", "TypeScript", "Python", "Ruby"],
-  DATABASE: ["PostgreSQL", "SQLite", "MongoDB"],
-  FRAMEWORKS: [
-    "ReactJS",
-    "NextJS",
-    "NodeJS",
-    "ExpresJS",
-    "Flask",
-    "Ruby-on-Rails",
+  PROGRAMMING: ["Python", "Java", "C", "JavaScript", "SQL"],
+
+  MACHINE_LEARNING: [
+    "NumPy",
+    "Pandas",
+    "Matplotlib",
+    "Scikit-learn"
   ],
-  TOOLS: ["Linux", "Git", "GitHub", "Zed", "VSCode", "Inkscape", "Draw.io"],
-  OTHERS: [
-    "HTML5",
-    "CSS3",
-    "TailwindCSS",
-    "Bootstrap",
-    "SCSS",
-    "REST",
-    "Redux",
+
+  BIG_DATA: [
+    "HDFS",
+    "Unix Commands",
+    "Data Processing",
+    "Basic Hadoop Concepts"
   ],
+
+  ETL_AND_DATA: [
+    "ETL Pipelines",
+    "Data Transformation",
+    "Data Cleaning",
+    "Data Analysis"
+  ],
+
+  WEB_DEVELOPMENT: [
+    "MERN Stack",
+    "MongoDB",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "REST APIs"
+  ],
+
+  LOW_CODE: ["Mendix"],
+
+  TOOLS: ["Git", "GitHub", "Linux"],
 };
 
 export const ABOUT_ME = [
-  "Hello, i'm Siddharth!",
-  "I'm a Full-Stack Software Engineer located in India. \n" +
-    "I have a great passion for UI creation, effects, animation\n" +
-    "and dynamic user experiences.",
-  "I try to keep up with security and best practices and am \n" +
-    "always looking for new things to learn and new opportunities.",
-  "I'm interested in working on ambitious projects with positive \n" +
-    "people and goal-oriented companies.",
-  "I am a Liverpool FC fan. I love swimming, watching TV series and travelling.",
+ "Hello, I'm Siddharth!",
+"I'm a System Engineer based in India.\n" +
+"I specialize in Machine Learning, Big Data, and ETL pipelines, \n" +
+"with hands-on experience in Python and Java for building scalable \n" +
+"and data-driven applications.",
+
+"I focus on following best practices, writing efficient and maintainable code, \n" +
+"and continuously learning new technologies in the fields of AI and data engineering.",
+
+"I enjoy working on challenging and impactful projects with \n" +
+"collaborative teams and forward-thinking organizations.",
+
+"I am passionate about technology, problem-solving, and exploring \n" +
+"new advancements in AI, and I also enjoy traveling and staying active.",
 ];
 
 export const SUMMARY =
-  "Detail-oriented software engineer with great passion for UI\n" +
-  " creation, effects, animation and dynamic user experiences. Major\n" +
-  " tech stack includes NextJS, ReactJS, Ruby-on-Rails, NodeJS,\n" +
-  " Postgresql, JavaScript, TypeScript, Python and Redux. Devoted to\n" +
-  " developing customized software to meet organisational needs,\n" +
-  " highlight their core competencies, and further their success.";
+  "Detail-oriented System Engineer with a strong focus on Machine Learning, Big Data, and ETL pipeline development.\n" +
+"Skilled in Python and Java, with experience in building scalable, data-driven applications and processing large datasets.\n" +
+"Passionate about designing efficient data workflows, applying best practices, and continuously improving system performance.\n" +
+"Dedicated to developing intelligent solutions that support business goals, enhance data utilization, and drive impactful outcomes.";
 
 export const CURRENT_WORK = {
   WORK: "INFOSYS",
@@ -170,33 +157,34 @@ export const CURRENT_WORK = {
 };
 
 export const FUN_FACTS = [
-  "I often go swimming 🏊🏽‍♂️ with my friends",
-  "My first computer 💻 bug was an actual bug 🪳",
-  "I like watching TV 📺 shows/series",
-  "I use Linux 🧑🏾‍💻 with GNOME while waiting for 3rd stable release of COSMIC ☺️",
-  "I support Liverpool FC ⚽️ (the biggest 💪🏾 club in Europe)",
-  "Linux runs on 💯% of the world’s top 500 supercomputers",
-  "My favourite game 🕹 is the Tomb Raider franchise",
-  "I once spent 3 hours debugging 🧑🏾‍💻 a single missing semicolon",
+  "I enjoy traveling and exploring new places ✈️, often going on spontaneous trips with no fixed destination 🌍",
+"I love roaming around and discovering new environments 🚶‍♂️",
+"I enjoy solving coding problems 🧑‍💻 and working through complex bugs until they are resolved",
+"I always look for efficient and optimized solutions, even when a basic approach works 💡⚡",
+"I like experimenting with Python and Java while building small projects and learning new concepts 🧪",
+"I spend time exploring new technologies in AI/ML, Big Data, and system design to continuously improve my skills 🚀",
+"I enjoy turning ideas into working applications 🚀",
+"I believe consistency and curiosity are key to growth in tech 📈"
 ];
 
 export const CONTACT_INFO = {
   EMAIL: "hello@sidmcodes.com",
   PHONE: "+91 9454500340",
+  LINKEDIN:"siddharth-mishra-363194225",
   NOTE: [
-    "I'm interested in working on ambitious projects with positive people and goal-oriented companies.",
-    "However, if you have other request or question, don’t hesitate to contact me.",
+   "I am passionate about contributing to ambitious, data-driven projects with innovative and goal-oriented teams 🚀",
+   "Open to opportunities, collaborations, and technical discussions—feel free to get in touch."
   ],
 };
 
 export const FEATURED_PROJECTS = [
   {
-    title: "Shakarrar",
+    title: "Paltu",
     description:
-      "Shakarra is a platform that allows you to shop from your favorite U.S. retailers and pay in naira. Simply browse, add items to your cart, and we'll handle the ...",
+      "Paltu is a platform that allows you to shop from your favorite U.S. retailers and pay in naira. Simply browse, add items to your cart, and we'll handle the ...",
     image: "/images/shakarrar.gif",
     // code: "https://github.com/PraisesPJMT/v2africa",
-    link: "https://www.shakarra.com/",
+    link: "#",
     // link: "https://v2africa.com/",
     type: "desktop",
     stack: [
@@ -214,19 +202,18 @@ export const FEATURED_PROJECTS = [
     description:
       "Sidmcodes is my personal portfolio website where I showcase my work and share my journey as a software engineer.",
     image: "/images/praises_tula.gif",
-    code: "https://github.com/PraisesPJMT/praises",
-    link: "https://praisestula.com.ng/",
+    code: "https://github.com/sid-2105",
+    link: "#",
     type: "desktop",
     stack: ["NextJS", "TailwindCSS"],
   },
   {
-    title: "V2Africa Labs",
+    title: "Travel and Tourism App",
     description:
-      "V2Africa Labs is the leading platform for African startups and entrepreneurs to connect, collaborate, and scale their businesses.",
+      "QGO Labs is the leading platform for African startups and entrepreneurs to connect, collaborate, and scale their businesses.",
     image: "/images/v2africa.gif",
     // code: "https://github.com/PraisesPJMT/v2africa",
-    link: "https://6940380b470f5b0ccec03ae1--v2africa.netlify.app/",
-    // link: "https://v2africa.com/",
+    link: "#",
     type: "desktop",
     stack: ["HTML5", "CSS3", "JavaScript", "JQuery", "Bootstrap"],
   },
@@ -247,165 +234,29 @@ export const FEATURED_PROJECTS = [
       "Google Auth",
       "Stripe",
     ],
-  },
-  {
-    title: "Plans",
-    description:
-      "A sleek, accessible, and feature-rich todo application built with React, TypeScript, and Vite. Manage your tasks with style using modern drag-and-drop functionality, real-time filtering, and beautiful modal dialogs.",
-    image: "/images/plans.gif",
-    code: "https://github.com/PraisesPJMT/Plans",
-    link: "https://plansapp.netlify.app/",
-    // link: "https://v2africa.com/",
-    type: "desktop",
-    stack: ["ReactJS", "TypeScript", "TailwindCSS", "Dark Mode"],
-  },
-  {
-    title: "Zride Dashboard",
-    description:
-      "Zride Dashboard is a web dashboard that allows users to manage their rides, view their ride history, and save their favorite rides.",
-    image: "/images/zride_dashboard.gif",
-    code: "https://github.com/PraisesPJMT/Zride_Dashboard",
-    link: "https://zride.netlify.app",
-    type: "desktop",
-    stack: ["ReactJS", "TailwindCSS", "Redux"],
-  },
+  }
 ];
 
-export const PROJECTS = [
+export const EXPERIENCE = [
   {
-    title: "Movie Box",
+    company: "Resilient IT Services",
+    position: "Mendix Intern",
+    duration: "August 2024 - January 2025",
     description:
-      "MovieBox movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies.",
-    image: "/images/moview-box.png",
-    code: "https://github.com/PraisesPJMT/Movie_Box",
-    link: "https://imdb-movie-box.netlify.app/",
-    type: "desktop",
-    stack: ["ReactJS", "SCSS"],
+      "Worked on Mendix low-code applications, backend integrations, and contributed to scalable enterprise solutions.",
+    skills: ["Mendix", "Low-Code", "APIs", "Backend Development"],
+    logo: "/images/res.png",
+    website: "https://www.resilientitservices.com",
   },
   {
-    title: "Wedrop",
+    company: "Infosys",
+    position: "System Engineer",
+    duration: "November 2025 - Present",
     description:
-      "Webapp to check the current weather in different cities worldwide.",
-    image: "/images/wedrop-preview.gif",
-    code: "https://github.com/PraisesPJMT/Wedrop-App",
-    link: "https://wedrop-app.netlify.app/",
-    type: "mobile",
-    stack: ["ReactJS", "TailwindCSS"],
-    portrait: true,
-  },
-  {
-    title: "KadaTech Summit",
-    description: "Landing page for the KadaTech 2022 Summit in Kaduna Nigeria.",
-    image: "/images/summit.gif",
-    code: "https://github.com/PraisesPJMT/Kada-Tech-Summit",
-    link: "https://praisespjmt.github.io/Kada-Tech-Summit/",
-    type: "desktop",
-    stack: ["HTML5", "CSS3", "JavaScript"],
-  },
-  {
-    title: "Zride",
-    description:
-      "Zride is the landing page for the Zride app. It provides users with information about the app, its features, and how to download it.",
-    image: "/images/zride.gif",
-    code: "https://github.com/PraisesPJMT/zride-website",
-    link: "https://zride-app.netlify.app/",
-    type: "desktop",
-    stack: ["ReactJS", "SCSS"],
-  },
-  {
-    title: "Pixagram",
-    description:
-      "Pixagram is a responsive image web gallery that showcases a collection of images. Users can login to the gallery page, rearrange their images by dragging and dropping.",
-    image: "/images/pixagram.png",
-    code: "https://github.com/PraisesPJMT/Pixogram",
-    link: "https://pixagram-app.netlify.app/",
-    type: "desktop",
-    stack: ["ReactJS", "SCSS", "CSS3"],
-  },
-  {
-    title: "ToDo List HTML",
-    description:
-      "Webapp that displays a list of daily tasks and allows user to add, edit, and remove task from list.",
-    image: "/images/todo_list.png",
-    code: "https://github.com/PraisesPJMT/To-Do-List",
-    link: "https://praisespjmt.github.io/To-Do-List/",
-    type: "mobile",
-    stack: ["HTML5", "CSS3", "JavaScript"],
-    portrait: true,
-  },
-  {
-    title: "Awesome Books",
-    description:
-      "Webapp that displays a list of books and allows user to add and remove books from list.",
-
-    image: "/images/awesome_books.gif",
-    code: "https://github.com/PraisesPJMT/Awesome-Books-ES6",
-    link: "https://praisespjmt.github.io/Awesome-Books-ES6/#",
-    type: "desktop",
-    stack: ["HTML", "CSS3", "JavaScript"],
-  },
-  {
-    title: "Math Magicians",
-    description:
-      "Webapp that users can make simple calculations and read a random math-related quote.",
-    image: "/images/math_magicians.gif",
-    code: "https://github.com/PraisesPJMT/Math-Magicians-RX",
-    link: "https://pjmt-math.netlify.app/",
-    type: "desktop",
-    stack: ["ReactJS", "CSS3"],
-  },
-  {
-    title: "Leader Board",
-    description:
-      "Webapp that displays scores submitted by different players and preserves data externally via API service.",
-    image: "/images/leaderboard.jpeg",
-    code: "https://github.com/PraisesPJMT/Leaderboard",
-    link: null,
-    type: "desktop",
-    stack: ["ReactJS", "CSS3"],
-  },
-  {
-    title: "Inkling Blog",
-    description:
-      "A classic blog website with full functionality of making posts, comments and likes.",
-    image: "/images/inkling_blog.png",
-    code: "https://github.com/PraisesPJMT/Inkling-Blog-App",
-    link: null,
-    type: "desktop",
-    stack: ["Rails", "TailwindCSS"],
-  },
-  {
-    title: "FoodPad",
-    description:
-      "App that keeps track of all users recipes, ingredients\n" +
-      "and inventory and allow users to make changes to them.",
-    image: "/images/foodpad.png",
-    code: "https://github.com/PraisesPJMT/FoodPad-App",
-    link: null,
-    type: "desktop",
-    stack: ["Rails", "TailwindCSS"],
-  },
-  {
-    title: "Fruugal",
-    description:
-      "Webapp where users can manage budgets by adding expenses into categories.",
-    image: "/images/fruugal.png",
-    code: "https://github.com/PraisesPJMT/Fruugal",
-    link: "https://fruugal-production.up.railway.app/",
-    type: "mobile",
-    stack: ["Rails", "TailwindCSS"],
-    portrait: true,
-  },
-  {
-    title: "Vip Cars",
-    description:
-      "Fullstack web application that allows users to make basic reservations of\n" +
-      "their favourite cars and as well add in a car for rent.",
-    image: "/images/vip_cars.png",
-    code: "https://github.com/PraisesPJMT/Vip_Cars_React",
-    link: "https://praisespjmt.github.io/To-Do-List/",
-    type: "desktop",
-    stack: ["React", "Rails", "TailwindCSS"],
+      "Working on ML, ETL, Python, Java and Big Data.",
+    skills: ["Java", "Python", "ML", "ETL"],
+    logo: "/images/infy.png",
+    website: "https://www.infosys.com",
   },
 ];
 
@@ -452,139 +303,187 @@ export const UTIL_PROJECTS = [
 
 export const CERTIFICATES = [
   {
-    title: "Operating Systems Basics",
+    title: "Programming & OOPS using Java",
     description:
-      "Earn this credential after completing a course that covers the basics of operating systems, including Linux, Windows, Mac, Android, and iOS.",
-    date: "September 2025",
-    skills: ["Linux OS", "Windows OS", "Mac OS", "Android OS", "iOS OS"],
-    link: "https://drive.proton.me/urls/96RR3AQETC#jVEpAlAy10qG",
+      "Earn this credential after completing a course covering programming fundamentals and object-oriented design using Java, including core OOP principles, data structures, and best practices for building modular and scalable applications.",
+    date: "December 2025",
+    skills: ["Programming","Java","OOPS"],
+    link: "#",
     provider: {
-      name: "CISCO Networking Academy",
-      url: "https://www.netacad.com/",
-      logo: "/images/cisco.png",
+      name: "Infosys",
+      url: "https://www.infosys.com/",
+      logo: "/images/infy.png",
     },
   },
   {
-    title: "Software Development",
-    description:
-      "Earn this credential after going through a youth program that teaches you how to build software applications through a series of projects and collaborations.",
-    date: "June 2025",
-    skills: ["Software Development", "Teamwork", "Communication"],
-    link: "https://justdocs.rentta.ng/download/praises-tula--4fea515c-915a-4762-ac4b-e9859f7d5064",
+    title: "Data Structure & Algorithm using Java",
+    description:"Earn this credential after completing a program covering data structures and algorithms using Java, emphasizing problem-solving, optimization techniques, and practical implementation through real-world coding challenges.",
+    date: "Dec 2025",
+    skills: ["Problem Solving", "Code Optimization", "Practical Implementation"],
+   link: "#",
     provider: {
-      name: "Tech4Dev",
-      url: "https://tech4dev.com/",
-      logo: "/images/tech4dev.png",
+      name: "Infosys",
+      url: "https://www.infosys.com/",
+      logo: "/images/infy.png",
     },
   },
   {
-    title: "Microverse Software Development Program",
-    description:
-      "Earn this credential after working through 1500+ hours of remote pair programming, learning to code with teams from around the world.",
-    date: "February 2023",
-    skills: [
-      "Full Stack Software Development",
-      "Pair-Programming",
-      "Remote Best Practices",
-      "Professional Skills",
-    ],
-    link: "https://www.credential.net/2df56665-a3df-4e85-87d9-41e77ce07bf4#acc.dSpAjDeh",
+  title: "Database Management System (HSQL)",
+  description:
+    "Earn this credential after completing a course covering database fundamentals using HSQL, including relational database concepts, SQL queries, data modeling, normalization, and database management best practices.",
+  date: "December 2025",
+  skills: [
+    "Database Management Systems",
+    "SQL Queries",
+    "Relational Databases",
+    "Data Modeling",
+  ],
+    link: "#",
     provider: {
-      name: "Microverse",
-      url: "https://www.microverse.org/full-stack-program",
-      logo: "/images/microverse.webp",
+      name: "Infosys",
+      url: "https://www.infosys.com/",
+      logo: "/images/infy.png",
     },
   },
-  // {
-  //   title: "Microverse Final Capstone Module",
-  //   description:
-  //     "Earn this credential after demonstrating the ability to collaborate with other students in order to develop a project based on business requirements. This project consists of React & Redux frontend part and Ruby on Rails API as the backend part and is presented to an external evaluator.",
-  //   date: "January 2023",
-  //   skills: [
-  //     "Full Stack Software Development",
-  //     "Pair-Programming",
-  //     "Remote Best Practices",
-  //     "Project Development Skills",
-  //   ],
-  //   link: "https://www.credential.net/cf908c91-8de7-4503-a490-08139664a6a4#acc.WBhCszcD",
-  //   provider: {
-  //     name: "Microverse",
-  //     url: "https://www.microverse.org/full-stack-program",
-  //     logo: "/images/microverse.webp",
-  //   },
-  // },
+
   {
-    title: "Microverse Ruby on Rails Module",
-    description:
-      "Earn this credential upon demonstrating mastery of Ruby on Rails by building multiple real-world Rails applications alongside software developers from all over the world.",
-    date: "January 2023",
-    skills: [
-      "Ruby on Rails",
-      "Ruby",
-      "Web Development",
-      "Back End Web Development",
-    ],
-    link: "https://www.credential.net/fceb8dd5-0438-4849-b030-341a2e3d71ca#acc.1IAk3RCS",
+  title: "Exploring Machine Learning using Python",
+  description:
+    "Earn this credential after gaining hands-on experience in machine learning using Python, including building models, working with datasets, and applying algorithms using libraries such as NumPy, pandas, and scikit-learn.",
+  date: "February 2026",
+  skills: [
+    "Machine Learning",
+    "Python",
+    "Regression",
+    "Classification",
+    "Clustering",
+    "scikit-learn",
+    "Data Analysis",
+  ],
+    link: "#",
     provider: {
-      name: "Microverse",
-      url: "https://www.microverse.org/full-stack-program",
-      logo: "/images/microverse.webp",
+      name: "Infosys",
+      url: "https://www.infosys.com/",
+      logo: "/images/infy.png",
+    },
+  },
+
+  {
+  title: "Data Science using Python",
+  description:
+    "Earn this credential after gaining a strong understanding of data science concepts using Python, including data analysis, visualization, and model building with libraries such as NumPy, pandas, and matplotlib through hands-on projects.",
+  date: "February 2026",
+  skills: [
+    "Python",
+    "Data Science",
+    "Data Analysis",
+    "Data Visualization",
+    "pandas",
+    "NumPy",
+    "matplotlib",
+  ],
+    link: "#",
+    provider: {
+      name: "Infosys",
+      url: "https://www.infosys.com/",
+      logo: "/images/infy.png",
+    },
+  },
+
+  {
+  title: "Infosys Certified Python Programmer",
+  description:
+    "Earn this credential after demonstrating proficiency in Python programming, including core concepts such as data structures, control flow, functions, and object-oriented programming through structured assessments and practical problem-solving.",
+  date: "November 2022",
+  skills: [
+    "Python",
+    "Programming Fundamentals",
+    "Data Structures",
+    "Object-Oriented Programming",
+    "Problem Solving",
+  ],
+    link: "#",
+    provider: {
+      name: "Infosys",
+      url: "https://www.infosys.com/",
+      logo: "/images/infy.png",
     },
   },
   {
-    title: "Microverse Ruby/Databases Module",
-    description:
-      "Earn this credential after demonstrating thorough and complete understanding of Ruby and databases by building multiple projects while collaborating and pair programming remotely with developers across the world.",
-    date: "November 2022",
-    skills: ["Ruby", "Databases"],
-    link: "https://www.credential.net/46b80cae-5b63-4b4f-9d9b-6b777561cf22#acc.ck4njYX0",
+  title: "Prompt Engineering",
+  description:
+    "Earn this credential after developing expertise in crafting effective prompts for AI models, focusing on optimizing outputs, improving response accuracy, and applying prompt design techniques for real-world AI applications.",
+  date: "December 2025",
+  skills: [
+    "Prompt Engineering",
+    "AI Interaction",
+    "Natural Language Processing",
+    "Problem Solving",
+    "Generative AI",
+  ],
+    link: "#",
     provider: {
-      name: "Microverse",
-      url: "https://www.microverse.org/full-stack-program",
-      logo: "/images/microverse.webp",
+      name: "Infosys",
+      url: "https://www.infosys.com/",
+      logo: "/images/infy.png",
     },
   },
   {
-    title: "Microverse React & Redux Module",
-    description:
-      "Earn this credential after demonstrating thorough understanding and mastery of React and Redux. Over the course of this module, students build and develop multiple projects using React and Redux, working both independently and while remotely pair-programming.",
-    date: "October 2022",
-    skills: ["React", "Redux", "JavaScript", "Front End Web Development"],
-    link: "https://www.credential.net/fb9b9cc1-b20f-43e5-b7d1-956afeb14af8#acc.YMuQ36nv",
+  title: "Mendix Advanced Certification",
+  description:
+    "Earn this credential after demonstrating advanced expertise in Mendix low-code development, including building scalable enterprise applications, implementing complex logic, integrating APIs, and following best practices in application architecture and deployment.",
+  date: "May 2023",
+  skills: [
+    "Mendix",
+    "Low-Code Development",
+    "Application Development",
+    "API Integration",
+    "Enterprise Solutions",
+  ],
+    link: "#",
     provider: {
-      name: "Microverse",
-      url: "https://www.microverse.org/full-stack-program",
-      logo: "/images/microverse.webp",
+      name: "Mendix",
+      url: "https://www.mendix.com/",
+      logo: "/images/mx.jpg",
     },
   },
-  // {
-  //   title: "Microverse JavaScript Module",
-  //   description:
-  //     "Earn this credential after demonstrating understanding and mastery of JavaScript. During the course of this module, they build several projects using JavaScript while pair-programming remotely with an international team of software developers.",
-  //   date: "September 2022",
-  //   skills: ["JavaScript", "TypeScript", "ESLint", "ES6"],
-  //   link: "https://www.credential.net/f2ff7a60-de64-426b-b6cc-82c3a8190090#acc.hFE7BLxz",
-  //   provider: {
-  //     name: "Microverse",
-  //     url: "https://www.microverse.org/full-stack-program",
-  //     logo: "/images/microverse.webp",
-  //   },
-  // },
-  // {
-  //   title: "Microverse HTML/CSS Module",
-  //   description:
-  //     "Earn this credential after demonstrating industry standard HTML and CSS skills, achieved working on remote pair programming with teams from around the world.",
-  //   date: "July 2022",
-  //   skills: ["HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
-  //   link: "https://www.credential.net/77cfac63-7700-4a04-8cca-88c39c8a2703#acc.IjZ8r5Ui",
-  //   provider: {
-  //     name: "Microverse",
-  //     url: "https://www.microverse.org/full-stack-program",
-  //     logo: "/images/microverse.webp",
-  //   },
-  // },
+    {
+  title: "Mendix Intermediate Certification",
+  description:
+    "Earn this credential after building and deploying applications using Mendix, demonstrating understanding of domain modeling, workflows, microflows, and basic integration with external services.",
+  date: "January 2023",
+  skills: [
+    "Mendix",
+    "Low-Code Development",
+    "Domain Modeling",
+    "Microflows",
+    "Application Development",
+  ],
+    link: "#",
+    provider: {
+      name: "Mendix",
+      url: "https://www.mendix.com/",
+      logo: "/images/mx.jpg",
+    },
+  },
+   {
+  title: "Mendix Rapid Certification",
+  description:
+    "Earn this credential after demonstrating the ability to quickly build and deploy applications using Mendix, focusing on core low-code concepts, rapid development practices, and efficient use of pre-built components.",
+  date: "May 2022",
+  skills: [
+    "Mendix",
+    "Rapid Application Development",
+    "Low-Code Development",
+    "Application Design",
+    "Basic Microflows",
+  ],
+    link: "#",
+    provider: {
+      name: "Mendix",
+      url: "https://www.mendix.com/",
+      logo: "/images/mx.jpg",
+    },
+  },
 ];
 
-// nsc.go54.com
-// nsd.go54.com
-// https://www.whogohost.com/host/clientarea.php?action=domaindetails#tabNameservers

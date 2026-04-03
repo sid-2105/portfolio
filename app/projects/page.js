@@ -1,12 +1,13 @@
 import { Seperator } from "@/components/sections";
 import AIProjects from "@/components/sections/ai-projects";
 import Projects from "@/components/sections/completed-projects";
-import OtherProjects from "@/components/sections/other-projects";
+import Experience from "@/components/sections/experience";
 import UtilProjects from "@/components/sections/util-projects";
 
 export const metadata = {
-  title: "Siddharth Mishra Projects | Software Engineer & Web Developer",
-  description: "Discover Siddharth Mishra's projects, showcasing his expertise in software engineering and web development.",
+  title: "Siddharth Mishra Projects | System Engineer | AI/ML & Big Data",
+  description:
+    "Explore Siddharth Mishra's projects as a System Engineer at Infosys, showcasing hands-on experience in Machine Learning, Big Data, ETL pipelines, and backend development using Python and Java.",
 };
 
 export default function ProjectsPage() {
@@ -18,7 +19,7 @@ export default function ProjectsPage() {
       <Seperator />
       <UtilProjects />
       <Seperator />
-      <OtherProjects/>
+      <Experience/>
     </>
   );
 }

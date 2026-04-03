@@ -1,0 +1,32 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left brace -->
+  <path
+    d="M22,10 Q14,10 14,18 L14,28 Q14,36 8,32 Q14,28 14,36 L14,46 Q14,54 22,54"
+    fill="none"
+    stroke="#534AB7"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Right brace -->
+  <path
+    d="M42,10 Q50,10 50,18 L50,28 Q50,36 56,32 Q50,28 50,36 L50,46 Q50,54 42,54"
+    fill="none"
+    stroke="#534AB7"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- s/ monogram -->
+  <text
+    x="32"
+    y="38"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="20"
+    font-weight="700"
+    fill="#282c33"
+  >s/</text>
+  <!-- Teal dot -->
+  <circle cx="32" cy="56" r="2.5" fill="#1D9E75" />
+</svg>

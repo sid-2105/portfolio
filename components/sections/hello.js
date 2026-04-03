@@ -19,8 +19,8 @@ export default function Hello() {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[3fr_2fr]">
           <div className="m-auto flex flex-col gap-4">
             <h1 className="text-[32px] font-bold">
-              Siddharth  is a <PurpleText>software engineer</PurpleText> and{" "}
-              <PurpleText>front-end developer</PurpleText>
+              Siddharth  is a <PurpleText>system engineer at Infosys</PurpleText> and{" "}
+              <PurpleText>working on ML, ETL & Python</PurpleText>
             </h1>
             <PrimaryText>{SUMMARY}</PrimaryText>
             <AppLink href="contact">Contact me!!</AppLink>
@@ -34,11 +34,11 @@ export default function Hello() {
           </div> */}
              <div className="relative grow flex flex-col h-auto min-h-[200px] w-fit min-w-[250px] mx-auto">
                       <Image
-                        src="/images/profile.svg"
+                        src="/images/pic.png"
                         alt="About Me"
                         layout="fill"
                         objectFit="contain"
-                        className="z-10 "
+                        className="z-10"
                       />
           
                       <DotsSVG className="w-14 h-14 md:w-16 md:h-16 absolute bottom-[20%] right-0 z-10" />

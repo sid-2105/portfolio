@@ -13,29 +13,29 @@ const firaCode = Fira_Code({
 });
 
 export const metadata = {
-  title: "Siddharth Mishra | Software Engineer & Web Developer",
+  title: "Siddharth Mishra | System Engineer | AI/ML & Big Data",
   description:
-    "Portfolio of Siddharth Mishra, a Software Engineer specializing in UI creation, animations, and dynamic user experiences with expertise in JavaScript, TypeScript, React, and NextJS.",
+    "Portfolio of Siddharth Mishra, a System Engineer at Infosys specializing in Machine Learning, Big Data, and ETL pipelines, with expertise in Python, Java, and building scalable data-driven and intelligent applications.",
   keywords:
-    "Praises Musa, Siddharth Mishra, Software Engineer, Frontend Developer, Web Developer, NextJS, React, JavaScript, TypeScript, Nigeria, Portfolio",
-  authors: [{ name: "Siddharth Mishra", url: "https://praisestula.com.ng" }],
+    "Siddharth Mishra, System Engineer, Infosys, AI ML Engineer, Machine Learning, Big Data Engineer, ETL Developer, Python Developer, Java Developer, Data Engineering, Data Pipelines, Backend Developer, Software Engineer India, AI Projects, ML Projects, Big Data Processing, ETL Pipelines",
+  authors: [{ name: "Siddharth Mishra", url: "https://sidmcodes.com" }],
   creator: "Siddharth Mishra",
   publisher: "Siddharth Mishra",
   openGraph: {
-    title: "Siddharth Mishra | Software Engineer & Web Developer",
+    title: "Siddharth Mishra | System Engineer | AI/ML & Big Data",
     description:
-      "Portfolio of Siddharth Mishra, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
-    url: "https://praisestula.com",
+      "Portfolio of Siddharth Mishra, a System Engineer at Infosys with expertise in AI/ML, Big Data, ETL pipelines, and backend development using Python and Java.",
+    url: "https://sidmcodes.com",
     siteName: "Siddharth Mishra Portfolio",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Siddharth Mishra | Software Engineer & Web Developer",
+    title: "Siddharth Mishra | System Engineer | AI/ML & Big Data",
     description:
-      "Portfolio of Siddharth Mishra, a Software Engineer specializing in UI creation, animations, and dynamic user experiences.",
-    creator: "@PraisesTula",
+      "Portfolio of Siddharth Mishra, System Engineer at Infosys specializing in AI/ML, Big Data, ETL pipelines, and scalable data-driven systems.",
+    creator: "@_sidverse",
   },
   robots: {
     index: true,

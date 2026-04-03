@@ -3,10 +3,8 @@ import { WrapSection } from "./sections";
 import { PROFILE_LINKS } from "@/utils/data";
 import {
   FaLinkedinIn,
-  FaFacebookF,
   FaXTwitter,
   FaInstagram,
-  FaMastodon,
   FaGithub,
 } from "react-icons/fa6";
 
@@ -19,7 +17,7 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <h6 className="text-tertiary flex items-center gap-1">
                 <Logo size={20} />
-                Sid
+                sidMcodes
               </h6>
 
               <a
@@ -31,7 +29,7 @@ const Footer = () => {
             </div>
 
             <p className="text-tertiary">
-              Software engineer
+              System Engineer @Infosys
             </p>
           </div>
 
@@ -88,7 +86,7 @@ const Footer = () => {
                   aria-label="My Facebook Profile"
                   aria-describedby="facebook-profile-link"
                 >
-                  <FaFacebookF className="h-5 w-5" />
+                  <FaInstagram className="h-5 w-5" />
                 </a>
               </li>
             </ul>
