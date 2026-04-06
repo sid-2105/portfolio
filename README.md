@@ -1,54 +1,54 @@
-# Praises Tula Portfolio
+Siddharth Mishra Portfolio
 
-A personal portfolio website showcasing my work as a Software Engineer based in Nigeria. This project is built with Next.js and implements a sleek, modern design created by Elias Davis. The portfolio shows my technical skills, featured projects, and professional background while showcasing engaging animations and interactive elements to create a memorable browsing experience.
+A personal portfolio website showcasing my work as a Software Developer. This project is built with Next.js and reflects my expertise in modern web development, UI design, and scalable application building. It highlights my technical skills, projects, and professional journey with a clean and interactive user experience.
 
-## Table of Contents
+Table of Contents
+Overview
+Features
+Tech Stack
+Installation
+Usage
+Credits
+License
+Contact
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Contact](#contact)
+Overview
 
-## Overview
+This portfolio represents my journey as a Software Developer with a strong focus on building scalable, user-friendly applications. As a 2025 graduate with hands-on industry experience at Infosys, I specialize in developing modern web and mobile applications using both low-code and full-stack technologies.
 
-This portfolio serves as a digital representation of my professional identity as a Software Developer with expertise in UI creation, animations, and building dynamic user experiences. The website showcases my technical skills, featured projects, and professional journey in an interactive and visually appealing manner.
+The portfolio demonstrates my ability to:
 
-As someone passionate about software development since 2022, this portfolio reflects my commitment to continuous learning and growth in the field. It demonstrates my ability to transform design concepts into functional, responsive web applications while maintaining clean code practices and modern development standards.
+Build responsive and high-performance applications
+Implement clean UI/UX with smooth animations
+Work with modern frameworks and scalable architectures
+Deliver production-ready solutions
 
-The portfolio is not just a collection of projects but also tells the story of my development journey, highlighting my experience with various programming languages, frameworks, and tools. It's designed to connect with potential employers and collaborators interested in working with a goal-oriented developer on ambitious projects.
+It serves as a platform to showcase my projects, technical expertise, and professional growth while connecting with recruiters and collaborators.
 
-## Features
-
-- Responsive design that works across all device sizes
-- Dynamic page transitions and UI effects
-- Interactive project showcases with detailed descriptions
-- Custom animations and micro-interactions
-- Professional skills visualization
-- Contact form integration
-- Dark/light mode toggle
-- SEO optimized content
-- Fast loading times through Next.js optimizations
-
-## Tech Stack
-
-- **Frontend Framework**: Next.js
-- **Styling**: TailwindCSS
-- **Languages**: TypeScript, JavaScript
-- **Animation**: Framer Motion
-- **Version Control**: Git/GitHub
-- **Additional Languages**: Python, Ruby, Rust
-- **Markup**: HTML5, CSS3
-- **Other Frameworks**: ReactJS, Flask, Ruby-on-Rails, Redux
-
-## Installation
+Features
+Fully responsive design across devices
+Smooth animations and transitions
+Interactive project showcase
+Professional experience timeline
+Skills and technology visualization
+Dark/light mode support
+Optimized performance with Next.js
+SEO-friendly structure
+Tech Stack
+Frontend Framework: Next.js, React.js
+Styling: Tailwind CSS
+Languages: TypeScript, JavaScript
+Animation: Framer Motion
+State Management: Redux
+Backend: Flask (Python), Node.js (basic)
+Low-Code Platforms: Mendix, OutSystems, Caspio
+Mobile Development: React Native
+Version Control: Git & GitHub
+Other Languages: Java, Python
+Installation
 
 To run this portfolio locally:
 
-```bash
 # Clone the repository
 git clone https://github.com/yourusername/portfolio.git
 
@@ -60,29 +60,26 @@ npm install
 
 # Start the development server
 npm run dev
-```
+Usage
 
-## Usage
+After running the project, open:
 
-After starting the development server, the portfolio will be available at `http://localhost:3000`. You can modify the content by updating the relevant components and data files.
+http://localhost:3000
 
-## Credits
+You can customize content by editing components, data files, and assets as per your needs.
 
-- **Design**: Based on Figma design by [Elias Davis](https://www.figma.com/design/eqpKP372UxqbmLYJ61MZOW/Portfolio--Community-?node-id=19-457&t=Ck7AXOUXSHTfDFGQ-0)
-- **Icons**: [Material Design Icons](https://react-icons.github.io/react-icons/icons/md/) 
-- **Fonts**: [Google Fonts](https://fonts.google.com/)
-- **Development Tools**: Zed, Inkscape, Draw.io
+Credits
+Design Inspiration: Modern portfolio UI/UX trends
+Icons: React Icons / Material UI Icons
+Fonts: Google Fonts
+Tools Used: VS Code, Figma, Git
+License
 
-## License
+This project is licensed under the MIT License.
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-- **Email**: [dev.praises@gmail.com](mailto:dev.praises@gmail.com)
-- **Phone**: [+2348085852828](call:+2348085852828)
-- **Website**: [praisestula.com](https://praisestula.com.ng)
-- **LinkedIn**: [Praises Tula](https://linkedin.com/in/praisestula)
-- **Twitter**: [@PraisesTula](https://twitter.com/praisestula)
-- **GitHub**: [github.com/PraisesTula](https://github.com/praisestula)
-- **Mastodon**: [@PraisesTula](https://mastodon.social/@praisestula)
+Contact
+Name: Siddharth Mishra
+Email: hello@sidmcodes.com
+LinkedIn:www.linkedin.com/in/siddharth-mishra-363194225
+GitHub:https://github.com/sid-2105/
+Portfolio: sidmcodes.com
