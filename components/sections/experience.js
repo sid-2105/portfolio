@@ -1,32 +1,3 @@
-// import { EXPERIENCE } from "@/utils/data";
-// import ExperienceCard from "../experience-card";
-// import { SubTitle } from "../titles";
-// import { Section, WrapSection } from "../sections";
-
-// import DotsSVG from "../assets/DotsSVG";
-// import RectangleSVG from "../assets/RectangleSVG";
-
-// const Experience = () => {
-//   return (
-//     <Section className="relative overflow-hidden">
-//       <WrapSection>
-//         <SubTitle line>Experience</SubTitle>
-
-//         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-//           {EXPERIENCE.map((exp, index) => (
-//             <ExperienceCard key={index} experience={exp} />
-//           ))}
-//         </div>
-//       </WrapSection>
-
-//       <DotsSVG className="w-20 h-20 absolute bottom-[5%] -right-4 hidden md:block" />
-//       <RectangleSVG className="w-30 h-30 absolute top-[30%] -left-8 hidden md:block" />
-//     </Section>
-//   );
-// };
-
-// export default Experience;
-
 import { EXPERIENCE } from "@/utils/data";
 import { SubTitle } from "../titles";
 import { Section, WrapSection } from "../sections";
@@ -36,7 +7,7 @@ const Experience = () => {
   return (
     <Section>
       <WrapSection>
-        <SubTitle line>Experience</SubTitle>
+        <SubTitle line>experience</SubTitle>
 
         <div className="mt-12 relative">
           {/* Center Line */}
