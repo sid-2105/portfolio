@@ -3,10 +3,8 @@ import { PROFILE_LINKS } from "@/utils/data";
 import { Section, WrapSection } from "../sections";
 import {
   FaLinkedinIn,
-  FaFacebookF,
   FaXTwitter,
   FaInstagram,
-  FaMastodon,
   FaGithub,
 } from "react-icons/fa6";
 
@@ -78,7 +76,7 @@ export default function AllMedia() {
                 aria-label="My Facebook Profile"
                 aria-describedby="facebook-profile-link"
               >
-                <FaFacebookF className="h-8 w-8" />
+                <FaInstagram className="h-8 w-8" />
                 {PROFILE_LINKS.INSTAGRAM.LABEL}
               </a>
             </li>

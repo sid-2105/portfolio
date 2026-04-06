@@ -74,7 +74,7 @@ export const PROFILE_LINKS = {
   },
   GITHUB: {
     LINK: "https://github.com/sid-2105",
-    LABEL: "@SiddharthMishra",
+    LABEL: "@sid-2105",
   },
   TWITTER: {
     LINK: "https://twitter.com/_sidverse",
@@ -82,7 +82,7 @@ export const PROFILE_LINKS = {
   },
   INSTAGRAM: {
     LINK: "https://www.instagram.com/_siddhuvibes",
-    LABEL: "Siddharth Mishra",
+    LABEL: "_siddhuvibes",
   },
   EMAIL: {
     LINK: "hello@sidmcodes.com",
@@ -181,58 +181,48 @@ export const FEATURED_PROJECTS = [
   {
     title: "Paltu",
     description:
-      "Paltu is a platform that allows you to shop from your favorite U.S. retailers and pay in naira. Simply browse, add items to your cart, and we'll handle the ...",
-    image: "/images/shakarrar.gif",
-    // code: "https://github.com/PraisesPJMT/v2africa",
+      "Paltu is a platform that allows you to predict the animal diseases and their preventions using the symptoms and provide you in platform purchase facility.",
+    image: "/images/coming_soon.gif",
+    // code: "https://github.com/sid-2105/Paltu",
     link: "#",
-    // link: "https://v2africa.com/",
     type: "desktop",
     stack: [
-      "ReactJS",
-      "TypeScript",
-      "TailwindCSS",
-      "Redux",
-      "Google Auth",
-      "Stripe",
-      "Paystack",
+      "MERN Stack",
+      "Python",
+      "Flask"
     ],
   },
   {
     title: "Sidmcodes",
     description:
       "Sidmcodes is my personal portfolio website where I showcase my work and share my journey as a software engineer.",
-    image: "/images/praises_tula.gif",
+    image: "/images/coming_soon.gif",
     code: "https://github.com/sid-2105",
-    link: "#",
+    link: "https://sidmcodes.com",
     type: "desktop",
     stack: ["NextJS", "TailwindCSS"],
   },
   {
     title: "Travel and Tourism App",
     description:
-      "QGO Labs is the leading platform for African startups and entrepreneurs to connect, collaborate, and scale their businesses.",
-    image: "/images/v2africa.gif",
-    // code: "https://github.com/PraisesPJMT/v2africa",
+      "QGO is the leading platform for middle east travel company provide travel related services to the customers.",
+    image: "/images/coming_soon.gif",
+    // code: "https://github.com/sid-2105",
     link: "#",
     type: "desktop",
-    stack: ["HTML5", "CSS3", "JavaScript", "JQuery", "Bootstrap"],
+    stack: ["Mendix"],
   },
   {
-    title: "MPG Events",
+    title: "Guider",
     description:
-      "MPG Events is a platform that helps you plan and organize your events, including weddings, conferences, and corporate events with ticketing and payment processing.",
-    image: "/images/mpg_events.gif",
-    // code: "https://github.com/PraisesPJMT/v2africa",
-    link: "https://main.d1wmzsbylqs2p.amplifyapp.com/",
-    // link: "https://v2africa.com/",
+      "Guider is a platform which help the college freshers to guide them in the world of engoneering by providing support of notes, coding skills, hackathon etc.",
+    image: "/images/coming_soon.gif",
+    // code: "https://github.com/sid-2105",
+    link: "#",
+    link: "#",
     type: "desktop",
     stack: [
-      "ReactJS",
-      "TypeScript",
-      "TailwindCSS",
-      "Redux",
-      "Google Auth",
-      "Stripe",
+      "Mendix"
     ],
   }
 ];
@@ -262,42 +252,35 @@ export const EXPERIENCE = [
 
 export const AI_PROJECTS = [
   {
-    title: "ML Based Risk Scoring Model for Cybersecurity Incidents in Banks",
+    title: "Exam Proctor",
     description:
-      "Three risk scoring methods (Weighted Scoring Model, Logistic Regression Model, and Random Forest Model) using private datasets from the network logs of the Central Bank of Nigeria to enhance the risk scoring model for cybersecurity incidents.",
-    code: "https://github.com/PraisesPJMT/rs_model_cbn_kaduna",
-    stack: ["Python"],
+      "It is a model that monitor the candidate to prevent cheating in online exams.",
+    code: "https://github.com/sid-2105/ML",
+    stack: ["Python","Open CV", "Media Pipeline"],
   },
   {
-    title: "Simulating Malware Propagation in Nigeria",
+    title: "Sentimental analysis of medicine reviews",
     description:
-      "Developed a simulation model to study the propagation of malware in Nigeria using Python.",
-    code: "https://github.com/PraisesPJMT/malware_effect_nigeria",
+      "Developed a sentimenatal analysis model fot Paltu using Python.",
+    code: "https://github.com/sid-2105",
     stack: ["Python"],
   },
 ];
 
 export const UTIL_PROJECTS = [
   {
-    title: "SecFile",
+    title: "Currency Converter",
     description:
-      "SecFile is a cross-platform (Linux, Windows, & macOS) application built with Electron and ReactJS that secures files using AES-256-GCM encryption.",
-    code: "https://github.com/PraisesPJMT/SecFile",
-    stack: ["Electron", "ReactJS", "AES-256-GCM"],
+      "A widget that converts the currency from one country to another.",
+    code: "https://github.com/sid-2105/",
+    stack: ["Javascript", "ReactJS"],
   },
   {
-    title: "AionTab",
+    title: "Weather widget",
     description:
-      "AionTab is an extension for chromium based browsers like Chrome, Chromium, Edge, Brave, etc. The extension replaces the default browser new tab with a cool dark looking tab that has functionality for multiple search engines options, bookmark of AI chat sites, bookmarks of utility sites, cool analogue clock and more.",
-    code: "https://github.com/PraisesPJMT/AionTab-Extension",
-    stack: ["Manifest", "JavaScript", "CSS3", "HTML5"],
-  },
-  {
-    title: "SecPass",
-    description:
-      "PassGuard is a browser extension that manages browser login credentials and store them locally using AES encryption.",
-    code: "https://github.com/PraisesPJMT/sec-pass",
-    stack: ["AES-256-GCM", "Manifest", "JavaScript", "CSS3", "HTML5"],
+      "It is a widget which forecast the weather using location",
+    code: "https://github.com/sid-2105",
+    stack: ["JavaScript", "CSS3", "HTML5"],
   },
 ];
 
