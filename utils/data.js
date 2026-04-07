@@ -181,10 +181,10 @@ export const FEATURED_PROJECTS = [
   {
     title: "Paltu",
     description:
-      "Paltu is a platform that allows you to predict the animal diseases and their preventions using the symptoms and provide you in platform purchase facility.",
-    image: "/images/coming_soon.gif",
-    // code: "https://github.com/sid-2105/Paltu",
-    link: "#",
+      "Paltu is an AI-powered platform that predicts potential animal diseases based on observed symptoms and provides recommended preventive measures. Additionally, it features an integrated marketplace that allows users to conveniently purchase relevant products directly through the platform.",
+    image: "/images/paltu.webm",
+    code: "https://github.com/sid-2105/Paltu",
+    link: "https://paltu-three.vercel.app/",
     type: "desktop",
     stack: [
       "MERN Stack",
@@ -196,17 +196,17 @@ export const FEATURED_PROJECTS = [
     title: "Sidmcodes",
     description:
       "Sidmcodes is my personal portfolio website where I showcase my work and share my journey as a software engineer.",
-    image: "/images/coming_soon.gif",
-    code: "https://github.com/sid-2105",
+    image: "/images/portfolio.webm",
+    code: "https://github.com/sid-2105/portfolio",
     link: "https://sidmcodes.com",
     type: "desktop",
     stack: ["NextJS", "TailwindCSS"],
   },
   {
-    title: "Travel and Tourism App",
+    title: "Travel and Tourism Native App",
     description:
-      "QGO is the leading platform for middle east travel company provide travel related services to the customers.",
-    image: "/images/coming_soon.gif",
+      "QGO is a leading platform for Middle Eastern travel companies, offering a comprehensive range of travel-related services to customers. It features multiple modules, including sports event bookings, vacation planning, and other travel management services, ensuring a seamless and convenient experience for users.",
+    image: "/images/coming_soon.webm",
     // code: "https://github.com/sid-2105",
     link: "#",
     type: "desktop",
@@ -215,16 +215,75 @@ export const FEATURED_PROJECTS = [
   {
     title: "Guider",
     description:
-      "Guider is a platform which help the college freshers to guide them in the world of engoneering by providing support of notes, coding skills, hackathon etc.",
-    image: "/images/coming_soon.gif",
+      "Guider is a platform designed to support college freshers in navigating the field of engineering by providing resources such as study notes, coding guidance, and hackathon support.",
+    image: "/images/guider.webm",
     // code: "https://github.com/sid-2105",
-    link: "#",
     link: "#",
     type: "desktop",
     stack: [
       "Mendix"
     ],
+  },
+  {
+    title: "Startup Website",
+    description:
+      "I developed a website for Resilient IT Services, handled its deployment, and implemented SEO strategies to improve its visibility and performance in search results.",
+    image: "/images/res.webm",
+    //code: "https://github.com/sid-2105",
+    link: "https://resilientitservices.com/",
+    type: "desktop",
+    stack: [
+      "Next.js and CSS"
+    ],
+  },
+  {
+    title: "He110 W0r1d - Coding Society",
+    description:
+      "A website designed for my coding society to help peers learn more about the community and easily apply for opportunities such as hackathons and other events.",
+    image: "/images/hello.webm",
+    code: "https://github.com/sid-2105/he110w0r1d",
+    link: "https://helloworld-frontend.vercel.app/",
+    type: "desktop",
+    stack: [
+      "Mendix"
+    ],
   }
+];
+
+
+
+export const AI_PROJECTS = [
+  {
+    title: "Exam Proctor",
+    description:
+      "It is a model that monitor the candidate to prevent cheating in online exams.",
+    code: "https://github.com/sid-2105/ML",
+    stack: ["Python","Open CV", "Media Pipeline"],
+  },
+  {
+    title: "Sentimental analysis of medicine reviews",
+    description:
+      "Developed a sentimenatal analysis model fot Paltu using Python.",
+    code: "https://github.com/sid-2105/Paltu",
+    stack: ["Python"],
+  },
+];
+
+export const UTIL_PROJECTS = [
+  {
+    title: "Currency converter",
+    description:
+      "A widget that converts the currency from one country to another.",
+    code: "https://github.com/sid-2105/Code-and-Fun",
+    stack: ["Javascript", "ReactJS"],
+  },
+  {
+    title: "Weather widget",
+    description:
+      "It is a widget which forecast the weather using location",
+    code: "https://github.com/sid-2105/weather-app",
+    stack: ["JavaScript", "CSS3", "HTML5"],
+  },
 ];
 
 export const EXPERIENCE = [
@@ -250,39 +309,6 @@ export const EXPERIENCE = [
   },
 ];
 
-export const AI_PROJECTS = [
-  {
-    title: "Exam Proctor",
-    description:
-      "It is a model that monitor the candidate to prevent cheating in online exams.",
-    code: "https://github.com/sid-2105/ML",
-    stack: ["Python","Open CV", "Media Pipeline"],
-  },
-  {
-    title: "Sentimental analysis of medicine reviews",
-    description:
-      "Developed a sentimenatal analysis model fot Paltu using Python.",
-    code: "https://github.com/sid-2105",
-    stack: ["Python"],
-  },
-];
-
-export const UTIL_PROJECTS = [
-  {
-    title: "Currency Converter",
-    description:
-      "A widget that converts the currency from one country to another.",
-    code: "https://github.com/sid-2105/",
-    stack: ["Javascript", "ReactJS"],
-  },
-  {
-    title: "Weather widget",
-    description:
-      "It is a widget which forecast the weather using location",
-    code: "https://github.com/sid-2105",
-    stack: ["JavaScript", "CSS3", "HTML5"],
-  },
-];
 
 export const CERTIFICATES = [
   {

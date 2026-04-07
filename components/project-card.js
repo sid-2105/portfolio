@@ -7,18 +7,21 @@ import AppLink from "./app-link"
 export const ProjectCard = ({ project, image = true, lineClamp = 3 }) => {
   return (
     <div className="w-full h-fit border border-tertiary flex flex-col">
-      {image && (
-        <div className="relative w-full aspect-video">
-          <Image
-            src={project?.image}
-            alt={project?.title}
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className={project?.portrait ? "object-contain" : "object-cover"}
-            priority={false}
-          />
-        </div>
-      )}
+    {image && (
+  <div className="relative w-full aspect-video overflow-hidden">
+    <video
+      src={project?.image}
+      autoPlay
+      loop
+      muted
+      playsInline
+      preload="none"
+      className={`absolute inset-0 w-full h-full ${
+        project?.portrait ? "object-contain" : "object-cover"
+      }`}
+    />
+  </div>
+)}
       <div className="border-y border-y-tertiary flex flex-wrap items-center gap-2 p-2 overflow-x-auto">
         {project?.stack.map(stack => (
           <PrimaryText key={stack} className="whitespace-nowrap">{stack}</PrimaryText>
