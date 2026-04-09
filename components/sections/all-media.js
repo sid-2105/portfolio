@@ -65,16 +65,14 @@ export default function AllMedia() {
               </a>
             </li>
 
-        
-
             <li className="h-fit">
               <a
                 href={PROFILE_LINKS.INSTAGRAM.LINK}
                 target="_blank"
                 className="p-0.5 h-fit flex items-center gap-3 transition-all duration-100 ease-in-out text-primary hover:text-tertiary hover:underline"
-                title="My Facebook Profile"
-                aria-label="My Facebook Profile"
-                aria-describedby="facebook-profile-link"
+                title="My Instagram Profile"
+                aria-label="My Instagram Profile"
+                aria-describedby="instagram-profile-link"
               >
                 <FaInstagram className="h-8 w-8" />
                 {PROFILE_LINKS.INSTAGRAM.LABEL}
@@ -84,7 +82,6 @@ export default function AllMedia() {
 
           <div className="relative hidden w-full md:block">
             {/* <DotsSVG className="absolute top-0 left-0 w-20 h-20" />
-
             <DesignSVG className="absolute bottom-0 right-0 w-38 h-38" /> */}
           </div>
         </div>

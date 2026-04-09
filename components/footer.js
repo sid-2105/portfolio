@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
 
             <p className="text-tertiary">
-              System Engineer @Infosys
+              System Engineer <a href="https://www.infosys.com" target="_blank" className="hover:underline hover:text-tertiary">@Infosys</a>
             </p>
           </div>
 
@@ -82,9 +82,9 @@ const Footer = () => {
                   href={PROFILE_LINKS.INSTAGRAM.LINK}
                   target="_blank"
                   className="p-0.5 h-fit flex items-center justify-center  transition-all duration-100 ease-in-out transform hover:text-tertiary hover:scale-110 hover:-translate-y-1"
-                  title="My Facebook Profile"
-                  aria-label="My Facebook Profile"
-                  aria-describedby="facebook-profile-link"
+                  title="My Instagram Profile"
+                  aria-label="My Instagram Profile"
+                  aria-describedby="instagram-profile-link"
                 >
                   <FaInstagram className="h-5 w-5" />
                 </a>
