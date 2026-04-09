@@ -14,6 +14,7 @@ export const ProjectCard = ({ project, image = true, lineClamp = 3 }) => {
       autoPlay
       loop
       muted
+      loading="lazy"
       playsInline
       preload="none"
       className={`absolute inset-0 w-full h-full ${

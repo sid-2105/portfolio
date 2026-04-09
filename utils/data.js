@@ -256,14 +256,14 @@ export const AI_PROJECTS = [
   {
     title: "Exam Proctor",
     description:
-      "It is a model that monitor the candidate to prevent cheating in online exams.",
+      "It is an AI-powered proctoring model designed to monitor candidates during online examinations, helping to detect and prevent cheating by analyzing behavior, movements, and other suspicious activities in real time.",
     code: "https://github.com/sid-2105/ML",
     stack: ["Python","Open CV", "Media Pipeline"],
   },
   {
     title: "Sentimental analysis of medicine reviews",
     description:
-      "Developed a sentimenatal analysis model fot Paltu using Python.",
+      "Engineered a sentiment analysis model for Paltu using Python, enabling the platform to analyze and interpret user feedback to derive meaningful insights and improve overall user experience.",
     code: "https://github.com/sid-2105/Paltu",
     stack: ["Python"],
   },
@@ -273,14 +273,14 @@ export const UTIL_PROJECTS = [
   {
     title: "Currency converter",
     description:
-      "A widget that converts the currency from one country to another.",
+      "Developed a currency conversion widget that enables users to seamlessly convert monetary values between different countries using real-time exchange rates.",
     code: "https://github.com/sid-2105/Code-and-Fun",
     stack: ["Javascript", "ReactJS"],
   },
   {
     title: "Weather widget",
     description:
-      "It is a widget which forecast the weather using location",
+      "Programmed a weather forecasting widget that provides accurate, location-based weather predictions, enabling users to access real-time and future weather insights seamlessly.",
     code: "https://github.com/sid-2105/weather-app",
     stack: ["JavaScript", "CSS3", "HTML5"],
   },
@@ -302,7 +302,7 @@ export const EXPERIENCE = [
     position: "System Engineer",
     duration: "November 2025 - Present",
     description:
-      "Working on ML, ETL, Python, Java and Big Data.",
+      "Working with technologies such as Machine Learning, ETL processes, Python, Java, and Big Data to build scalable and data-driven solutions.",
     skills: ["Java", "Python", "ML", "ETL"],
     logo: "/images/infy.png",
     website: "https://www.infosys.com",
@@ -317,7 +317,7 @@ export const CERTIFICATES = [
       "Earn this credential after completing a course covering programming fundamentals and object-oriented design using Java, including core OOP principles, data structures, and best practices for building modular and scalable applications.",
     date: "December 2025",
     skills: ["Programming","Java","OOPS"],
-    link: "#",
+    link: "https://drive.google.com/file/d/18_-J3dJxmtqQUz8D2VffpCO7A5mj6X-d/view?usp=drive_link",
     provider: {
       name: "Infosys",
       url: "https://www.infosys.com/",
@@ -329,7 +329,7 @@ export const CERTIFICATES = [
     description:"Earn this credential after completing a program covering data structures and algorithms using Java, emphasizing problem-solving, optimization techniques, and practical implementation through real-world coding challenges.",
     date: "Dec 2025",
     skills: ["Problem Solving", "Code Optimization", "Practical Implementation"],
-   link: "#",
+   link: "https://drive.google.com/file/d/1FltmMLiteOLw_nO7JBcDejpeT07Mrdhs/view?usp=drive_link",
     provider: {
       name: "Infosys",
       url: "https://www.infosys.com/",
@@ -347,7 +347,7 @@ export const CERTIFICATES = [
     "Relational Databases",
     "Data Modeling",
   ],
-    link: "#",
+    link: "https://drive.google.com/file/d/1QGGhcW0fJDIbdj4rYot2MLL1-yEYgwLi/view?usp=drive_link",
     provider: {
       name: "Infosys",
       url: "https://www.infosys.com/",
@@ -369,7 +369,7 @@ export const CERTIFICATES = [
     "scikit-learn",
     "Data Analysis",
   ],
-    link: "#",
+    link: "https://drive.google.com/file/d/1nwZAFHjgvrYxL7Wm56c4K-K-vefdnIZv/view?usp=drive_link",
     provider: {
       name: "Infosys",
       url: "https://www.infosys.com/",
@@ -378,7 +378,7 @@ export const CERTIFICATES = [
   },
 
   {
-  title: "Data Science using Python",
+  title: "Python for Data Science",
   description:
     "Earn this credential after gaining a strong understanding of data science concepts using Python, including data analysis, visualization, and model building with libraries such as NumPy, pandas, and matplotlib through hands-on projects.",
   date: "February 2026",
@@ -391,7 +391,7 @@ export const CERTIFICATES = [
     "NumPy",
     "matplotlib",
   ],
-    link: "#",
+    link: "https://drive.google.com/file/d/1KK74CURn3753yicvfiymy5kHFWi6sd7w/view?usp=drive_link",
     provider: {
       name: "Infosys",
       url: "https://www.infosys.com/",
@@ -411,7 +411,7 @@ export const CERTIFICATES = [
     "Object-Oriented Programming",
     "Problem Solving",
   ],
-    link: "#",
+    link: "https://drive.google.com/file/d/1yPCxlL-BDRvoYiEYCy9UHd_tL2lxEipZ/view?usp=drive_link",
     provider: {
       name: "Infosys",
       url: "https://www.infosys.com/",
@@ -430,7 +430,7 @@ export const CERTIFICATES = [
     "Problem Solving",
     "Generative AI",
   ],
-    link: "#",
+    link: "https://drive.google.com/file/d/1QRUUoShxDxfRruMvxF8b3cQMXbi7cwWy/view?usp=drive_link",
     provider: {
       name: "Infosys",
       url: "https://www.infosys.com/",
@@ -449,7 +449,7 @@ export const CERTIFICATES = [
     "API Integration",
     "Enterprise Solutions",
   ],
-    link: "#",
+    link: "https://drive.google.com/file/d/14hnrn0nouRAygvHqnex5ZRYxfGjy_ztb/view?usp=drive_link",
     provider: {
       name: "Mendix",
       url: "https://www.mendix.com/",
@@ -468,7 +468,7 @@ export const CERTIFICATES = [
     "Microflows",
     "Application Development",
   ],
-    link: "#",
+    link: "https://drive.google.com/file/d/1D13IDcT5dSMi7_oAc-2_-J76V3pkEr-g/view?usp=drive_link",
     provider: {
       name: "Mendix",
       url: "https://www.mendix.com/",
@@ -487,7 +487,7 @@ export const CERTIFICATES = [
     "Application Design",
     "Basic Microflows",
   ],
-    link: "#",
+    link: "https://drive.google.com/file/d/1ow-oFwMR1j0MwroDCdbTqO0tjGlWm7xL/view?usp=drive_link",
     provider: {
       name: "Mendix",
       url: "https://www.mendix.com/",
